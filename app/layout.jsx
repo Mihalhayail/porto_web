@@ -9,55 +9,55 @@ import Chat from "@/components/Chat";
 import ClientTopProgressBar from "@/components/ClientTopProgressBar";
 
 export const metadata = {
-    title: "Alvalens | Portofolio",
+  title: "Mihalhayail | Portofolio",
 
-    description:
-		"My name is Alvalens, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Negeri Malang.",
+  description:
+    "My name is Mihalhayail, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Negeri Malang.",
 
-    author: "Alvalen Shafelbilyunazra",
-    siteUrl: "https://www.alvalens.my.id",
-    applicationName: "Alvalens",
+  author: "Mihalhayail",
+  siteUrl: "https://www.mihalhayail.my.id",
+  applicationName: "Mihalhayail",
 
-    keywords: [
-		"alvalens",
-		"alvalen",
-		"alvalen shafel",
-		"shafel",
-		"alvalen shafelbilyunazra",
-		"alvalen shafel bilyunazra",
-		"bloodfallen",
-		"alvalen porto",
-		"alvalen um",
-	],
+  keywords: [
+    "mihalhayail",
+    "mihal",
+    "mihal hayail",
+    "hayail",
+    "mihalhayail portofolio",
+    "mihalhayail portofolio website",
+    "bloodfallen",
+    "mohal porto",
+    "mihal haya",
+  ],
 
-    openGraph: {
-		type: "website",
-		url: "https://www.alvalens.my.id",
-		title: "Alvalens | Portofolio",
-		site_name: "Alvalens | Portofolio",
-		description: "My name is Alvalens, This is my portofolio website.",
-		width: 1200,
-		height: 630,
-		images: [
-			{
-				url: "/og-image-rev.png",
-				alt: "Alvalens Portofolio",
-			},
-		],
-		site_name: "Alvalens | Portofolio",
-	}
+  openGraph: {
+    type: "website",
+    url: "https://www.mihalhayail.my.id",
+    title: "Mihalhayail | Portofolio",
+    site_name: "Mihalhayail | Portofolio",
+    description: "My name is Mihalhayail, This is my portofolio website.",
+    width: 1200,
+    height: 630,
+    images: [
+      {
+        url: "/og-image-rev.png",
+        alt: "Mihalhayail Portofolio",
+      },
+    ],
+    site_name: "Mihalhayail | Portofolio",
+  },
 };
 
 export default function RootLayout({ children }) {
-	return (
-		<html lang="en">
-			<body>
-				<ClientTopProgressBar />
-				<Navbar />
-				{children}
-				<Chat />
-				<Analytics />
-			</body>
-		</html>
-	);
+  return (
+    <html lang="en">
+      <body>
+        <ClientTopProgressBar />
+        <Navbar />
+        {children}
+        <Chat />
+        <Analytics />
+      </body>
+    </html>
+  );
 }
