@@ -41,6 +41,8 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "15.2.3",
+    "@types/estree": "^1.0.8",
+    "@types/json-schema": "^7.0.15",
     "@types/react": "19.1.5",
     "cross-env": "^7.0.3"
   }
