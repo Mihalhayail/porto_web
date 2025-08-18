@@ -153,10 +153,11 @@ export default function Education() {
           transition={{ duration: 0.6 }}
         >
           <h1 className="text-3xl md:text-4xl font-bold tracking-tighter">
-            Education
+            Pendidikan
           </h1>
           <p className="text-muted-foreground max-w-[800px] mx-auto">
-            Get to know more about my educational background.
+            Mari cari tau latar belakang pendidikan dan prestasi yang telah aku
+            capai selama perjalanan studiku.
           </p>
         </motion.div>
         {/* Main Content */}
@@ -168,13 +169,13 @@ export default function Education() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <div className="font-medium text-lg mb-4">2022 - Present</div>
+            <div className="font-medium text-lg mb-4">2024 - Sekarang</div>
             <div>
               <h2 className="font-semibold text-xl">
-                Universitas Negeri Malang
+                Universitas Al-Azhar, Mesir
               </h2>
               <h3 className="text-md font-normal mb-3">
-                S1 Teknik Informatika | Computer Science
+                S1 Prodi Umum | Fakultas Bahasa Arab
               </h3>
               <div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
                 <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
@@ -182,7 +183,7 @@ export default function Education() {
                     src={Me5}
                     width={400}
                     height={225}
-                    alt="University"
+                    alt="Universitas"
                     className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
                   />
                 </div>
@@ -191,7 +192,7 @@ export default function Education() {
                     src={Me4}
                     width={400}
                     height={225}
-                    alt="University"
+                    alt="Universitas"
                     className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
                   />
                 </div>
@@ -200,35 +201,32 @@ export default function Education() {
                     src={Me6}
                     width={400}
                     height={225}
-                    alt="University"
+                    alt="Universitas"
                     className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
                   />
                 </div>
               </div>
               <div className="flex items-center gap-2">
                 <p className="text-gray-600 text-justify title text-lg">
-                  Aspiring to become a professional Software Engineer, I&rsquo;m
-                  currently pursuing my Bachelor&rsquo;s degree in{" "}
+                  Bercita-cita menjadi seorang Sastrawan sekaligus yang ahli
+                  dalam Teknologi, saya saat ini sedang menempuh pendidikan{" "}
+                  <span className="text-black font-medium">S1 Bahasa Arab</span>{" "}
+                  di{" "}
                   <span className="text-black font-medium">
-                    Computer Science
-                  </span>{" "}
-                  at{" "}
-                  <span className="text-black font-medium">
-                    Universitas Negeri Malang
+                    Universitas Al-Azhar Mesir
                   </span>
-                  . My journey in tech is driven by curiosity and
-                  creativity—combining web development with cutting-edge AI
-                  research and implementation.
+                  . Perjalanan saya di bidang sastra arab sekaligus teknologi
+                  digital didorong oleh ambisi saya untuk memajukan dunia sastra
+                  diantara gempuran modernisasi yang membara.
                   <br />
                   <br />
-                  As the{" "}
-                  <span className="text-black font-medium">
-                    Co-Lead of Google Developer Group on Campus (GDGoC)
-                  </span>{" "}
-                  at my university, I&rsquo;ve led technical initiatives,
-                  mentored peers, and helped build impactful digital solutions.
-                  I&rsquo;ve actively participated in various{" "}
-                  <span className="text-black font-medium">
+                  Selain menekuni bidang Akademik yang berminat terhadap membaca
+                  dan menelaah buku sastra klasik, saya juga aktif dalam
+                  pengembangan teknologi yang sering dianggap bertolak belakang.
+                  Saya memiliki ambisi dengan memiliki pengalaman mengetuai
+                  berbagai organisasi dan kepanitiaan, saya dapat memajukan
+                  dunia sastra arab dengan teknologi yang saya kuasai.{" "}
+                  {/* <span className="text-black font-medium">
                     national or international technology competitions
                   </span>
                   , earning recognition through awards such as{" "}
@@ -236,25 +234,23 @@ export default function Education() {
                     PIMNAS Finalist, Indonesia Inventor Day Gold Medalist, Top 3
                     at LIDM 2024
                   </span>
-                  , and more.
+                  , and more. */}
                   <br />
-                  <br />I am passionate about solving real-world problems
-                  through code, especially at the intersection of{" "}
+                  <br />
+                  Saya yakin dengan menggabungkan{" "}
                   <span className="text-black font-medium">
-                    Web Development
+                    filsafat, sastra arab, dan teknologi
                   </span>{" "}
-                  and{" "}
-                  <span className="text-black font-medium">
-                    Artificial Intelligence
-                  </span>
-                  . Constantly learning, building, and collaborating—I&rsquo;m
-                  excited to keep growing and contributing to the evolving tech
-                  landscape.
+                  dalam diri saya. saya akan tumbuh dengan nilai-nilai zaman
+                  dahulu sembari mengikuti realita zaman. Dengan terus belajar,
+                  produktif, dan berkolaborasi—saya bersemangat untuk terus
+                  berkembang dan berkontribusi dalam dunia yang berlari ke masa
+                  depan.
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mt-4 text-sm">
                 <div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-                  GPA: 3.9 out of 4
+                  GPA: مقبول
                 </div>
               </div>
             </div>
@@ -266,9 +262,9 @@ export default function Education() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <h2 className="font-semibold text-xl mt-7">Achievements</h2>
+            <h2 className="font-semibold text-xl mt-7">Prestasi</h2>
             <p className="text-md font-normal mb-3 md:mb-6">
-              Some of my achievements during my study.
+              Beberapa prestasi yang telah aku raih selama perjalanan studiku.
             </p>
 
             {/* Achievements Container with transparent bottom effect */}
