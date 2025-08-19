@@ -19,6 +19,9 @@ import Me9 from "@/public/image/me9.jpg";
 import Me10 from "@/public/image/me10.jpg";
 import Me11 from "@/public/image/me11.jpg";
 import Me12 from "@/public/image/me12.jpg";
+import Small1 from "@/public/image/small1.jpg";
+import Small2 from "@/public/image/small2.jpg";
+import Misbah from "@/public/image/misbah.jpg";
 
 function Wrapper({ children }) {
   return (
@@ -175,6 +178,179 @@ export default function Education() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
+            <br />
+            {/* MIN Section */}
+            <div className="font-medium text-lg mb-4">2012 - 2018</div>
+            <div>
+              <h2 className="font-semibold text-xl">MIN 6 Aceh Utara</h2>
+              <h3 className="text-md font-normal mb-3">
+                MIN | Madrasah Ibtidaiyah Negeri
+              </h3>
+              <div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
+                <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
+                  <Image
+                    src={Small1}
+                    width={400}
+                    height={225}
+                    alt="smp"
+                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
+                  />
+                </div>
+                <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
+                  <Image
+                    src={Small2}
+                    width={400}
+                    height={225}
+                    alt="smp"
+                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
+                  />
+                </div>
+                <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
+                  <Image
+                    src={Misbah}
+                    width={400}
+                    height={225}
+                    alt="smp"
+                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
+                  />
+                </div>
+              </div>
+              <div className="flex items-center gap-2">
+                <p className="text-gray-600 text-justify title text-lg">
+                  Di MIN 6 Aceh Utara, saya memulai perjalanan pendidikan saya
+                  dengan fokus pada dasar-dasar ilmu pengetahuan umum dan agama.
+                  Saya belajar membaca, menulis, dan berhitung, serta mulai
+                  memahami nilai-nilai moral dan etika yang penting dalam
+                  kehidupan.
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-2 mt-4 text-sm">
+                <div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
+                  Nilai : Istimewa
+                </div>
+              </div>
+            </div>
+            <br />
+            <br />
+            {/* MTSs Section */}
+            <div className="font-medium text-lg mb-4">2018 - 2021</div>
+            <div>
+              <h2 className="font-semibold text-xl">
+                Dayah Terpadu Al-Muslimun, Aceh Utara
+              </h2>
+              <h3 className="text-md font-normal mb-3">
+                MTSs | Program Tahfidzul Qur'an
+              </h3>
+              <div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
+                <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
+                  <Image
+                    src={Me7}
+                    width={400}
+                    height={225}
+                    alt="smp"
+                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
+                  />
+                </div>
+                <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
+                  <Image
+                    src={Me11}
+                    width={400}
+                    height={225}
+                    alt="smp"
+                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
+                  />
+                </div>
+                <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
+                  <Image
+                    src={Me12}
+                    width={400}
+                    height={225}
+                    alt="smp"
+                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
+                  />
+                </div>
+              </div>
+              <div className="flex items-center gap-2">
+                <p className="text-gray-600 text-justify title text-lg">
+                  Di Dayah Terpadu Al-Muslimun, saya lebih fokus pada
+                  pembalajaran agama Islam, terutama pada hafalan Al-Qur'an.
+                  Saya membangun fondasi sayapada nilai-nilai Islam yang kuat,
+                  yang membentuk karakter saya hingga saat ini.
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-2 mt-4 text-sm">
+                <div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
+                  Status : Alumni
+                </div>
+              </div>
+            </div>
+            <br />
+            <br />
+            {/* SMA Section */}
+            <div className="font-medium text-lg mb-4">2021 - 2023</div>
+            <div>
+              <h2 className="font-semibold text-xl">
+                PMD Gontor Kampus 8, Darul Amien, Aceh
+              </h2>
+              <h3 className="text-md font-normal mb-3">
+                Program Intensif | 2,5 Tahun
+              </h3>
+              <div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
+                <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
+                  <Image
+                    src={Me8}
+                    width={400}
+                    height={225}
+                    alt="sma"
+                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
+                  />
+                </div>
+                <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
+                  <Image
+                    src={Me10}
+                    width={400}
+                    height={225}
+                    alt="sma"
+                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
+                  />
+                </div>
+                <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
+                  <Image
+                    src={Me9}
+                    width={400}
+                    height={225}
+                    alt="sma"
+                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
+                  />
+                </div>
+              </div>
+              <div className="flex items-center gap-2">
+                <p className="text-gray-600 text-justify title text-lg">
+                  Di PMD Gontor, saya menjalani pendidikan intensif selama 2,5
+                  tahun, di mana saya belajar{" "}
+                  <span className="text-black font-medium">
+                    bahasa Arab dan bahasa Inggris,
+                  </span>{" "}
+                  saya fokus pada pengembangan soft skills seperti kepemimpinan,
+                  komunikasi, dan organisasi.
+                  <br />
+                  <br />
+                  Di sini, saya juga aktif dalam berbagai kegiatan
+                  ekstrakurikuler seperti pramuka, dan public speaking, dan juga
+                  berkecimpung sebagai ketua dalam berbagai kepanitiaan seperti
+                  Khutbatul Arsy dan PSC &amp; HTQ.
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-2 mt-4 text-sm">
+                <div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
+                  Status : Alumnus
+                </div>
+              </div>
+            </div>
+
+            <br />
+            <br />
+            {/* Kuliah Section */}
             <div className="font-medium text-lg mb-4">2024 - Sekarang</div>
             <div>
               <h2 className="font-semibold text-xl">
@@ -257,122 +433,6 @@ export default function Education() {
               <div className="flex flex-wrap gap-2 mt-4 text-sm">
                 <div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
                   نتيجة : مقبول
-                </div>
-              </div>
-            </div>
-
-            <br />
-            <br />
-            <div className="font-medium text-lg mb-4">2021 - 2023</div>
-            <div>
-              <h2 className="font-semibold text-xl">
-                PMD Gontor Kampus 8, Darul Amien, Aceh
-              </h2>
-              <h3 className="text-md font-normal mb-3">
-                Program Intensif | 2,5 Tahun
-              </h3>
-              <div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
-                <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
-                  <Image
-                    src={Me8}
-                    width={400}
-                    height={225}
-                    alt="sma"
-                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
-                  />
-                </div>
-                <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
-                  <Image
-                    src={Me10}
-                    width={400}
-                    height={225}
-                    alt="sma"
-                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
-                  />
-                </div>
-                <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
-                  <Image
-                    src={Me9}
-                    width={400}
-                    height={225}
-                    alt="sma"
-                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
-                  />
-                </div>
-              </div>
-              <div className="flex items-center gap-2">
-                <p className="text-gray-600 text-justify title text-lg">
-                  Di PMD Gontor, saya menjalani pendidikan intensif selama 2,5
-                  tahun, di mana saya belajar{" "}
-                  <span className="text-black font-medium">
-                    bahasa Arab dan bahasa Inggris,
-                  </span>{" "}
-                  saya fokus pada pengembangan soft skills seperti kepemimpinan,
-                  komunikasi, dan organisasi.
-                  <br />
-                  <br />
-                  Di sini, saya juga aktif dalam berbagai kegiatan
-                  ekstrakurikuler seperti pramuka, dan public speaking, dan juga
-                  berkecimpung sebagai ketua dalam berbagai kepanitiaan seperti
-                  Khutbatul Arsy dan PSC &amp; HTQ.
-                </p>
-              </div>
-              <div className="flex flex-wrap gap-2 mt-4 text-sm">
-                <div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-                  Status : Alumnus
-                </div>
-              </div>
-            </div>
-            <br />
-            <br />
-            <div className="font-medium text-lg mb-4">2018 - 2021</div>
-            <div>
-              <h2 className="font-semibold text-xl">
-                Dayah Terpadu Al-Muslimun, Aceh Utara
-              </h2>
-              <h3 className="text-md font-normal mb-3">
-                MTSs | Program Tahfidzul Qur'an
-              </h3>
-              <div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
-                <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
-                  <Image
-                    src={Me7}
-                    width={400}
-                    height={225}
-                    alt="smp"
-                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
-                  />
-                </div>
-                <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
-                  <Image
-                    src={Me11}
-                    width={400}
-                    height={225}
-                    alt="smp"
-                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
-                  />
-                </div>
-                <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
-                  <Image
-                    src={Me12}
-                    width={400}
-                    height={225}
-                    alt="smp"
-                    className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
-                  />
-                </div>
-              </div>
-              <div className="flex items-center gap-2">
-                <p className="text-gray-600 text-justify title text-lg">
-                  Di Dayah Terpadu Al-Muslimun, saya lebih fokus pada
-                  pembalajaran agama Islam, terutama pada hafalan Al-Qur'an.
-                  Saya membangun fondasi sayapada nilai-nilai Islam yang kuat,
-                  yang membentuk karakter saya hingga saat ini.
-                </p>
-              </div>
-              <div className="flex flex-wrap gap-2 mt-4 text-sm">
-                <div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-                  Status : Alumni
                 </div>
               </div>
             </div>
