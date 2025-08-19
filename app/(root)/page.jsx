@@ -208,7 +208,7 @@ const MyPage = () => {
                     }}
                   >
                     <Button variation="primary">
-                      <Link href="/about">Learn More</Link>
+                      <Link href="/about">Pelajari!</Link>
                     </Button>
                   </motion.div>
                 </div>
@@ -282,7 +282,7 @@ const MyPage = () => {
                     }}
                   >
                     <Button variation="primary">
-                      <Link href="/projects">Learn More</Link>
+                      <Link href="/projects">Jelajahi!</Link>
                     </Button>
                   </motion.div>
                 </div>
@@ -329,7 +329,7 @@ const MyPage = () => {
                       type: "spring",
                     }}
                   >
-                    Get In Touch
+                    Contact Me
                   </motion.h1>
                   <Hr />
                   <motion.p

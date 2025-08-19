@@ -122,7 +122,7 @@ export default function About() {
             </span>{" "}
             bahasa, filsafat, dan teknologi. Berasal dari Samudera, Aceh Utara,
             Indonesia, Saya sedang menempuh pendidikan sebagai mahasiswa{" "}
-            <span className="text-black font-medium">Sastra Arab</span> at{" "}
+            <span className="text-black font-medium">Sastra Arab</span> di{" "}
             <span className="text-black font-medium">
               Universitas Al-Azhar, Cairo, Mesir.
             </span>{" "}
