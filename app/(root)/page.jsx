@@ -91,12 +91,12 @@ const MyPage = () => {
                       type: "spring",
                     }}
                   >
-                    Hi! I&rsquo;am Mihalhayail, Mahasiswa Sastra Arab di
-                    Al-Azhar University, Cairo, dengan minat besar pada
-                    pengembangan diri dan eksplorasi ilmu. Memiliki keterampilan
-                    di bidang front-end development, bahasa Arab, dan filsafat,
-                    saya terus mengembangkan kemampuan agar dapat berkontribusi
-                    lebih luas di masa depan.
+                    Hi! Aku Mihalhayail, Mahasiswa Sastra Arab di Al-Azhar
+                    University, Cairo, dengan minat besar pada pengembangan diri
+                    dan eksplorasi ilmu. Memiliki keterampilan di bidang
+                    front-end development, bahasa Arab, dan filsafat, saya terus
+                    mengembangkan kemampuan agar dapat berkontribusi lebih luas
+                    di masa depan.
                   </motion.p>
                   <motion.div
                     className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
@@ -118,7 +118,7 @@ const MyPage = () => {
                       </Link>
                     </Button>
                     <Button variation="secondary">
-                      <a href="#contact">Contact Me</a>
+                      <a href="#contact">Hubungi Saya</a>
                     </Button>
                   </motion.div>
                 </motion.div>
