@@ -2,6 +2,7 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faMedal,
+  faBook,
   faGraduationCap,
   faTrophy,
   faAward,
@@ -53,94 +54,94 @@ export default function Education() {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const achievementsByYear = {
-    2025: [
-      {
-        icon: faMedal,
-        title: "1st place (Gold Medal)",
-        subtitle: "Fesmaro IT Business Competition",
-        date: "Mar 2025",
-        color: "from-yellow-400 to-orange-500",
-      },
-      {
-        icon: faAward,
-        title: "Finalist",
-        subtitle: "Hackfest Build to Billion 2025",
-        date: "Apr 2025",
-        color: "from-blue-500 to-purple-600",
-      },
-      {
-        icon: faMedal,
-        title: "3rd place (Bronze Medal)",
-        subtitle: "Faculty of Engineering Most Outstanding Student",
-        date: "Feb 2025",
-        color: "from-amber-600 to-yellow-600",
-      },
-    ],
-    2024: [
+    2016: [
       {
         icon: faTrophy,
-        title: "Special Award | Gold Medal | Incubation Opportunity",
-        subtitle: "Indonesia Inventor Day 2024 (IID)",
-        date: "Aug 2024",
+        title: "Juara 2 Pidato Bahasa Indonesia",
+        subtitle: "Personi Kabupaten Aceh Utara",
+        date: "Juli 2016",
+        color: "from-yellow-400 to-orange-500",
+      },
+    ],
+    2017: [
+      {
+        icon: faBook,
+        title: "Story Teller ",
+        subtitle: "Strory Telling Competition Kearsipan Aceh Utara",
+        date: "Juni 2017",
+        color: "from-yellow-400 to-orange-500",
+      },
+    ],
+    2019: [
+      {
+        icon: faAward,
+        title: "Finalis Muhadatsah Bahasa Arab",
+        subtitle: "Language Cup Al-Muslimun",
+        date: "November 2019",
         color: "from-yellow-400 to-orange-500",
       },
       {
-        icon: faMedal,
-        title: "1st place (Gold Medal)",
-        subtitle: "Tech & Trade Expo 2024",
-        date: "Jul 2024",
+        icon: faBook,
+        title: "Finalis Stroy Telling Bahasa Arab",
+        subtitle: "Language Cup Al-Muslimun",
+        date: "November 2019",
         color: "from-yellow-400 to-orange-500",
       },
+    ],
+    2021: [
       {
-        icon: faMedal,
-        title: "2nd place (Silver Medal)",
-        subtitle: "IdeaFest 2024",
-        date: "Jul 2024",
-        color: "from-slate-400 to-slate-500",
+        icon: faTrophy,
+        title: "Harapan 2 Fahmil Qur'an | Prov. Aceh",
+        subtitle: "Musabaqah Tunas Ramadhan 2021",
+        date: "April 2024",
+        color: "from-yellow-400 to-orange-500",
       },
       {
         icon: faAward,
-        title: "Finalist",
-        subtitle: "37th National Student Science Week (PIMNAS)",
-        date: "Oct 2024",
+        title: "Juara Umum 1 | Semester 1",
+        subtitle: "PMD Gontor Kampus 8",
+        date: "November 2021",
         color: "from-blue-500 to-purple-600",
       },
+    ],
+    2022: [
       {
-        icon: faMedal,
-        title: "3rd place (Bronze Medal)",
-        subtitle: "Student Digital Innovation Competition (LIDM)",
-        date: "Jun 2024",
+        icon: faTrophy,
+        title: "Juara 1 Pidato Bahasa Arab",
+        subtitle: "PSC & HTQ PMD Gontor Kampus 8",
+        date: "Januari 2022",
         color: "from-amber-600 to-yellow-600",
       },
+
       {
         icon: faMedal,
-        title: "3rd place (Bronze Medal)",
-        subtitle: "Fesmaro UI/UX Design",
-        date: "Jun 2024",
+        title: "Adika Teladan | Penegak Pramuka",
+        subtitle: "GT-05 Red Eagle",
+        date: "November 2022",
         color: "from-amber-600 to-yellow-600",
       },
     ],
     2023: [
       {
-        icon: faAward,
-        title: "Finalist",
-        subtitle: "36th National Student Science Week (PIMNAS)",
-        date: "Nov 2023",
-        color: "from-blue-500 to-purple-600",
+        icon: faGraduationCap,
+        title: "Ketua Pantia PSC & HTQ",
+        subtitle: "PSC & HTQ PMD Gontor Kampus 8",
+        date: "Januari 2023",
+        color: "from-green-500 to-teal-500",
       },
       {
-        icon: faMedal,
-        title: "3rd place (Bronze Medal)",
-        subtitle: "FORKAFEST 3.0 Web Development competition",
-        date: "Jan 2023",
-        color: "from-amber-600 to-yellow-600",
+        icon: faGraduationCap,
+        title: "Ketua Panitia Khutbatul Arsy",
+        subtitle: "PMD Gontor Kampus 8",
+        date: "Juni 2023",
+        color: "from-green-500 to-teal-500",
       },
     ],
   };
 
   // Flatten all achievements into a single array for easier limiting
   const allAchievements = Object.entries(achievementsByYear)
-    .sort(([a], [b]) => parseInt(b) - parseInt(a))
+    .sort(([a], [b]) => parseInt(a) - parseInt(b))
     .flatMap(([year, achievements]) =>
       achievements.map((achievement) => ({ ...achievement, year }))
     );
