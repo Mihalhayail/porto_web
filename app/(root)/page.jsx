@@ -1,5 +1,3 @@
-// Copyright (C) 2025 Alvalen Bilyunazra
-// This file is part of Mihalhayail-porto-2-nextJs.
 // Licensed under the GNU GPL v3.0. See LICENSE for details.
 
 "use client";
