@@ -22,7 +22,7 @@ import Me11 from "@/public/image/me11.jpg";
 import Me12 from "@/public/image/me12.jpg";
 import Small1 from "@/public/image/small1.jpg";
 import Small2 from "@/public/image/small2.jpg";
-import Misbah from "@/public/image/misbah.jpg";
+import Misbah from "@/public/image/misbah.JPG";
 
 function Wrapper({ children }) {
   return (
