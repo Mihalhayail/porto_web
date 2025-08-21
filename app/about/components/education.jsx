@@ -240,7 +240,7 @@ export default function Education() {
                 Dayah Terpadu Al-Muslimun, Aceh Utara
               </h2>
               <h3 className="text-md font-normal mb-3">
-                MTSs | Program Tahfidzul Qur'an
+                MTSs | Program Tahfidzul Qur&apos;an
               </h3>
               <div className="gap-4 mb-4 flex items-stretch md:h-[300px] xl:h-[400px]">
                 <div className="flex-[1] transition-all duration-300 ease-in-out hover:flex-[3] group">
@@ -274,9 +274,9 @@ export default function Education() {
               <div className="flex items-center gap-2">
                 <p className="text-gray-600 text-justify title text-lg">
                   Di Dayah Terpadu Al-Muslimun, saya lebih fokus pada
-                  pembalajaran agama Islam, terutama pada hafalan Al-Qur'an.
-                  Saya membangun fondasi sayapada nilai-nilai Islam yang kuat,
-                  yang membentuk karakter saya hingga saat ini.
+                  pembalajaran agama Islam, terutama pada hafalan
+                  Al-Qur&apos;an. Saya membangun fondasi sayapada nilai-nilai
+                  Islam yang kuat, yang membentuk karakter saya hingga saat ini.
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mt-4 text-sm">
