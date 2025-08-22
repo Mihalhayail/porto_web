@@ -123,17 +123,17 @@ export default function Education() {
     ],
     2023: [
       {
-        icon: faGraduationCap,
-        title: "Ketua Pantia PSC & HTQ",
-        subtitle: "PSC & HTQ PMD Gontor Kampus 8",
-        date: "Januari 2023",
+        icon: faMedal,
+        title: "Peserta Terbaik ",
+        subtitle: "Fathul Kutub",
+        date: "September 2023",
         color: "from-green-500 to-teal-500",
       },
       {
         icon: faGraduationCap,
-        title: "Ketua Panitia Khutbatul Arsy",
+        title: "Juara 2 Drama Bahasa Inggris",
         subtitle: "PMD Gontor Kampus 8",
-        date: "Juni 2023",
+        date: "Agustus 2023",
         color: "from-green-500 to-teal-500",
       },
     ],

@@ -78,7 +78,7 @@ const MyPage = () => {
                       type: "spring",
                     }}
                   >
-                    Front End Developer
+                    Arabic & Tech Enthusiast
                   </motion.h1>
                   <motion.p
                     className="title text-md  2xl:text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem]"
@@ -91,10 +91,10 @@ const MyPage = () => {
                   >
                     Hi! Aku Mihalhayail, Mahasiswa Sastra Arab di Al-Azhar
                     University, Cairo, dengan minat besar pada pengembangan diri
-                    dan eksplorasi ilmu. Memiliki keterampilan di bidang
-                    front-end development, bahasa Arab, dan filsafat, aku terus
-                    mengembangkan kemampuan agar dapat berkontribusi lebih luas
-                    di masa depan.
+                    dan eksplorasi ilmu. Memiliki keterampilan di bidang bahasa
+                    arab, front end development, desain grafis dan filsafat, aku
+                    terus mengembangkan kemampuan agar dapat berkontribusi lebih
+                    luas di masa depan.
                   </motion.p>
                   <motion.div
                     className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
