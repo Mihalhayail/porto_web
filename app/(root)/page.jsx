@@ -92,7 +92,7 @@ const MyPage = () => {
                     Hi! Aku Mihalhayail, Mahasiswa Sastra Arab di Al-Azhar
                     University, Cairo, dengan minat besar pada pengembangan diri
                     dan eksplorasi ilmu. Memiliki keterampilan di bidang
-                    front-end development, bahasa Arab, dan filsafat, saya terus
+                    front-end development, bahasa Arab, dan filsafat, aku terus
                     mengembangkan kemampuan agar dapat berkontribusi lebih luas
                     di masa depan.
                   </motion.p>
@@ -195,7 +195,7 @@ const MyPage = () => {
                       type: "spring",
                     }}
                   >
-                    Ayo Kenalan! Pelajari minat dan bakat saya sebagai Pelajar.
+                    Ayo Kenalan! Pelajari minat dan bakatku sebagai Pelajar.
                   </motion.p>
                   <motion.div
                     initial={{ y: 40, opacity: 0 }}
@@ -265,7 +265,7 @@ const MyPage = () => {
                       type: "spring",
                     }}
                   >
-                    Beberapa yang sudah saya lalui{" "}
+                    Beberapa yang sudah aku lalui{" "}
                     <span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
                       {" "}
                       dan sedang dalam proses.
@@ -339,10 +339,7 @@ const MyPage = () => {
                       type: "spring",
                     }}
                   >
-                    Jangan ragu hubungi saya jika Anda memiliki pertanyaan.{" "}
-                    {/* <span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
-                      atau hanya ingin mengatakan hi.
-                    </span> */}
+                    Jangan ragu hubungi aku jika kamu memiliki pertanyaan.{" "}
                   </motion.p>
                   <motion.p
                     className="title text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5"

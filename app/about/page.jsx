@@ -56,7 +56,7 @@ export default function Page() {
               Pengenalan singkat mengenai{" "}
               <span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
                 {" "}
-                diri saya.
+                personality.
               </span>
             </p>
             <motion.div

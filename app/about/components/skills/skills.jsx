@@ -246,7 +246,7 @@ export default function Skills() {
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed">
             Ayo Jelajahi teknikal skill ku di berbagai bidang. Klik kategori
-            mana pun untuk melihat teknologi dan tools spesifik yang saya
+            mana pun untuk melihat teknologi dan tools spesifik yang aku
             gunakan.
           </p>
         </motion.div>
