@@ -218,11 +218,10 @@ export default function Education() {
               </div>
               <div className="flex items-center gap-2">
                 <p className="text-gray-600 text-justify title text-lg">
-                  Di MIN 6 Aceh Utara, saya memulai perjalanan pendidikan saya
-                  dengan fokus pada dasar-dasar ilmu pengetahuan umum dan agama.
-                  Saya belajar membaca, menulis, dan berhitung, serta mulai
-                  memahami nilai-nilai moral dan etika yang penting dalam
-                  kehidupan.
+                  Di MIN 6 Aceh Utara, Aku memulai perjalanan pendidikan dengan
+                  fokus pada dasar-dasar ilmu pengetahuan umum dan agama. Aku
+                  belajar membaca, menulis, dan berhitung, serta mulai memahami
+                  nilai-nilai moral dan etika yang penting dalam kehidupan.
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mt-4 text-sm">
@@ -273,10 +272,10 @@ export default function Education() {
               </div>
               <div className="flex items-center gap-2">
                 <p className="text-gray-600 text-justify title text-lg">
-                  Di Dayah Terpadu Al-Muslimun, saya lebih fokus pada
+                  Di Dayah Terpadu Al-Muslimun, aku lebih fokus pada
                   pembalajaran agama Islam, terutama pada hafalan
-                  Al-Qur&apos;an. Saya membangun fondasi sayapada nilai-nilai
-                  Islam yang kuat, yang membentuk karakter saya hingga saat ini.
+                  Al-Qur&apos;an. Aku membangun fondasiku pada nilai-nilai Islam
+                  yang kuat, yang membentuk karakter-ku hingga saat ini.
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mt-4 text-sm">
@@ -327,16 +326,16 @@ export default function Education() {
               </div>
               <div className="flex items-center gap-2">
                 <p className="text-gray-600 text-justify title text-lg">
-                  Di PMD Gontor, saya menjalani pendidikan intensif selama 2,5
-                  tahun, di mana saya belajar{" "}
+                  Di PMD Gontor, aku menjalani pendidikan intensif selama 2,5
+                  tahun, di mana aku belajar{" "}
                   <span className="text-black font-medium">
                     bahasa Arab dan bahasa Inggris,
                   </span>{" "}
-                  saya fokus pada pengembangan soft skills seperti kepemimpinan,
+                  aku fokus pada pengembangan soft skills seperti kepemimpinan,
                   komunikasi, dan organisasi.
                   <br />
                   <br />
-                  Di sini, saya juga aktif dalam berbagai kegiatan
+                  Di sini, Aku juga aktif dalam berbagai kegiatan
                   ekstrakurikuler seperti pramuka, dan public speaking, dan juga
                   berkecimpung sebagai ketua dalam berbagai kepanitiaan seperti
                   Khutbatul Arsy dan PSC &amp; HTQ.
@@ -392,23 +391,23 @@ export default function Education() {
               <div className="flex items-center gap-2">
                 <p className="text-gray-600 text-justify title text-lg">
                   Bercita-cita menjadi seorang Sastrawan sekaligus yang ahli
-                  dalam Teknologi, saya saat ini sedang menempuh pendidikan{" "}
+                  dalam Teknologi, aku saat ini sedang menempuh pendidikan{" "}
                   <span className="text-black font-medium">S1 Bahasa Arab</span>{" "}
                   di{" "}
                   <span className="text-black font-medium">
                     Universitas Al-Azhar Mesir
                   </span>
-                  . Perjalanan saya di bidang sastra arab sekaligus teknologi
-                  digital didorong oleh ambisi saya untuk memajukan dunia sastra
+                  . Perjalanan aku di bidang sastra arab sekaligus teknologi
+                  digital didorong oleh ambisi aku untuk memajukan dunia sastra
                   diantara gempuran modernisasi yang membara.
                   <br />
                   <br />
                   Selain menekuni bidang Akademik yang berminat terhadap membaca
-                  dan menelaah buku sastra klasik, saya juga aktif dalam
+                  dan menelaah buku sastra klasik, aku juga aktif dalam
                   pengembangan teknologi yang sering dianggap bertolak belakang.
-                  Saya memiliki ambisi dengan memiliki pengalaman men uai
-                  berbagai organisasi dan kepanitiaan, saya dapat memajukan
-                  dunia sastra arab dengan teknologi yang saya kuasai.{" "}
+                  Aku memiliki ambisi dengan memiliki pengalaman mengetuai
+                  berbagai organisasi dan kepanitiaan, aku bisa memajukan dunia
+                  sastra arab dengan teknologi yang aku kuasai.{" "}
                   {/* <span className="text-black font-medium">
                     national or international technology competitions
                   </span>
@@ -420,13 +419,13 @@ export default function Education() {
                   , and more. */}
                   <br />
                   <br />
-                  Saya yakin dengan menggabungkan{" "}
+                  Aku yakin dengan menggabungkan{" "}
                   <span className="text-black font-medium">
                     filsafat, sastra arab, dan teknologi
                   </span>{" "}
-                  dalam diri saya. saya akan tumbuh dengan nilai-nilai zaman
+                  dalam diri aku. aku akan tumbuh dengan nilai-nilai zaman
                   dahulu sembari mengikuti realita zaman. Dengan terus belajar,
-                  produktif, dan berkolaborasi—saya bersemangat untuk terus
+                  produktif, dan berkolaborasi—Aku bersemangat untuk terus
                   berkembang dan berkontribusi dalam dunia yang berlari ke masa
                   depan.
                 </p>

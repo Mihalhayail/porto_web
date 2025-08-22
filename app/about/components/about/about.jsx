@@ -121,15 +121,15 @@ export default function About() {
               mahasiswa dengan minat besar pada
             </span>{" "}
             bahasa, filsafat, dan teknologi. Berasal dari Samudera, Aceh Utara,
-            Indonesia, Saya sedang menempuh pendidikan sebagai mahasiswa{" "}
+            Indonesia, Aku sedang menempuh pendidikan sebagai mahasiswa{" "}
             <span className="text-black font-medium">Sastra Arab</span> di{" "}
             <span className="text-black font-medium">
               Universitas Al-Azhar, Cairo, Mesir.
             </span>{" "}
-            Keseharian saya belajar bahasa dan sastra arab sembari fokus pada
+            Keseharian aku belajar bahasa dan sastra arab sembari fokus pada
             teknologi web dan kecerdasan buatan. Selain teknologi dan kecerdasan
-            buatan, saya juga tertarik dengan filsafat dan beberapa disiplin
-            lainnya seperti ekonomi dan keuangan. saya percaya bahwa
+            buatan, aku juga tertarik dengan filsafat dan beberapa disiplin
+            lainnya seperti ekonomi dan keuangan. aku percaya bahwa
             <span className="text-black font-medium">
               {" "}
               belajar sepanjang hayat
