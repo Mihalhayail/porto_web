@@ -5,7 +5,7 @@
       "title": "Blog Deraslife",
       "desc": [
         "Deraslife adalah sebuah platform yang menghadirkan kabar terbaru seputar hiburan, destinasi wisata, dan topik hangat dari seluruh dunia. Kami tidak hanya menyajikan informasi, tapi juga menjadi teman perjalanan dalam menemukan hiburan yang sesuai dengan minatmu.",
-        "Web ini memiliki beberapa fitur, seperti dasbor untuk pengguna melihat kemajuan persiapan wawancara mereka, fitur analisis dan optimasi CV, serta beberapa pertanyaan wawancara berbasis AI yang dapat dijawab oleh pengguna, yang kemudian akan dianalisis oleh AI untuk memberikan umpan balik. Analisis tersebut mencakup analisis jawaban, analisis gerakan, dan rekomendasi materi untuk meningkatkan kinerja pengguna.",
+        "Web ini memiliki beberapa fitur, seperti dasbor untuk pengguna melihat traffik web dan pembaca artikel, fitur pencarian artikel, dan juga fitur kategori artikel. Web ini juga memiliki desain yang responsif, sehingga dapat diakses dengan baik di berbagai perangkat, mulai dari desktop hingga ponsel.",
         "Deraslife fokus pada topik-topik yang sedang hangat diperbincangkan di indonesia. dengan tujuan untuk memberikan informasi yang relevan dan menarik bagi pembaca kami."
       ],
       "year": "2025",
@@ -31,69 +31,68 @@
         "Laravel"
       ],
       "slug": "deraslife",
-      "category": [1, 2]
+      "category": [1]
     },
+
     {
-      "show": false,
-      "title": "Client Personal Protfolio Website",
+      "show": true,
+      "title": "Rujukan Santri",
       "desc": [
-        "A personal portfolio website that I created for a client. The website is built using two main tech, native (HTML, CSSS, JS) and react based (ReactJs, TailwindCSS, Typescript). The website also created based on the client design, and improved and sliced by me. The website has a few features such as a about page, a project page, resume page, and a contact page.",
-        "The website is created using a modern design and a clean interface that appeals to a wide audience. The website also has a responsive design that makes it easy to use on any device. The website also has a few animations that make the website more interactive and engaging."
+        "Website Rujukan Santri yang terintegrasi dengan google drive menyajikan beragam kitab-kitab turats di berbagai bidang keilmuan seperti fiqh, ushul fiqh hingga ilmu tauhid. Dengan website ini, santri dapat menulis artikel sembari berbagi ilmu dengan tidak hanya menyajikan materi etapi juga sumber-sumber secara digital.",
+        "Website ini juga memiliki beberapa fitur seperti dashboard untuk menulis, memantau traffic,terhubung dengan Google Analytic dan SEO Search Engine Optimization, terlebih lagi dapat menganalisa perkembangan an mengevaluasi tulisan gar kedepannya mampu untuk menyajikan konten artikel yang lebih baik. Website ini juga memiliki fitur pencarian, filter artikel berdasarkan kategori hingga sitemap untuk SEO."
       ],
-      "year": "2025",
-      "preview": "",
+      "year": "2024",
+      "preview": "https://www.rujukannyasantri.com",
       "code": "",
-      "thumbnail": "/image/projects/web/apii-portfolio/porto-thumbnail.jpg",
+      "thumbnail": "/image/projects/web/rujukan-santri/santri-thumbnail.jpg",
       "images": [
-        "/image/projects/web/apii-portfolio/porto1.png",
-        "/image/projects/web/apii-portfolio/porto2.png",
-        "/image/projects/web/apii-portfolio/porto3.png"
+        "/image/projects/web/rujukan-santri/santri-1.png",
+        "/image/projects/web/rujukan-santri/santri-2.png",
+        "/image/projects/web/rujukan-santri/santri-3.png",
+        "/image/projects/web/rujukan-santri/santri-4.png",
+        "/image/projects/web/rujukan-santri/santri-5.png"
       ],
-      "tech": ["HTML", "CSS", "JS", "ReactJS", "TailwindCSS", "Typescript"],
-      "slug": "apii-porto",
+      "tech": [
+        "Blogspot",
+        "Wordpress",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "Tailwind CSS",
+        "PHP",
+        "MySQL",
+        "Laravel"
+      ],
+      "slug": "rujukan-santri",
       "category": [1]
     },
     {
       "show": true,
-      "title": "Mind Mirror",
+      "title": "SDN 6 Payabakong",
       "desc": [
-        "LMS website that integrated Generative AI feauture to track studnet various keys like mood, behavior, and cognitive ability when learning. The website is built using Laravel as a fullstack framework. In this website teacher can track student mood and other metrics data based on the material students accessed.",
-        "The website also has a few features such as a dashboard for the teacher to see the student's data, a material page, and a quiz page. The website also has a few charts to visualize the student's data. The website provided the student captured data that can be downloaded by the teacher.",
-        "The website also has a features to export the lecture data such as the mood, behaviour, and cognitive score to a xlxs file that can be downloaded by the teacher."
+        "Website SDN 6 Payabakong adalah salah satu website yang dibangun untuk memperkenalkan Sekolah Dasar Negeri 6 Payabakong, dengan tampilan home page yang menampilkan Visi & Misi Sekolah secara singkat lalu memberikan sedikit biodata.",
+        "Website SDN 6 Payabakong mempunyai beberapa fitur utama, seperti halaman untuk menulis artikel mengenai kegiatan dan acara sekolah, lalu halaman galeri yang berisi video dan foto kenangan sekolah tersebut, tidak lupa halaman lain seperti, struktur organisasi sekolah, data guru dan siswa, hingga beragam informasi menenai fasilitas ekstrakulikuler SDN 6."
       ],
       "year": "2024",
-      "preview": "",
+      "preview": "https://sdn6payabakong.sch.id",
       "code": "",
-      "thumbnail": "/image/projects/web/mind-mirror/mind-thumbnail.jpg",
+      "thumbnail": "/image/projects/web/sdn6-payabakong/sdn6-thumbnail.jpg",
       "images": [
-        "/image/projects/web/mind-mirror/mind1.png",
-        "/image/projects/web/mind-mirror/mind2.png",
-        "/image/projects/web/mind-mirror/mind3.png",
-        "/image/projects/web/mind-mirror/mind4.png",
-        "/image/projects/web/mind-mirror/mind5.png"
+        "/image/projects/web/sdn6-payabakong/sekolah1.png",
+        "/image/projects/web/sdn6-payabakong/sekolah2.png",
+        "/image/projects/web/sdn6-payabakong/sekolah3.png",
+        "/image/projects/web/sdn6-payabakong/sekolah4.png"
       ],
-      "tech": ["PHP", "Laravel", "Bootstrap", "MySQL", "jQuery", "DataTables"],
-      "slug": "mind-mirror",
-      "category": [1, 2]
-    },
-    {
-      "show": true,
-      "title": "Javanese Translation Website",
-      "desc": [
-        "A Javanese ngoko - krama translation website that I created as a collaborative project with my friends. The website is built using the original Transformer architecture by Vaswani et al. (2017). Built with Python, TensorFlow, Flask, HTML, and CSS, the website allows users to input text in Javanese krama and receive the corresponding ngoko translation.",
-        "The website is designed to be simple to use, with a clean and modern interface that appeals to a wide audience. Users can input text in Javanese krama and receive the corresponding ngoko translation. The Project also provide ipynb file for the model training and the model itself."
+      "tech": [
+        "Hostinger Builder",
+        "Excel",
+        "Google Drive",
+        "Wordpress",
+        "Elementor"
       ],
-      "year": "2024",
-      "preview": "",
-      "code": "https://github.com/Alvalens/web-javanese-translation",
-      "thumbnail": "/image/projects/ai/javanese-translation/javanese-translation-thumbnail.jpg",
-      "images": [
-        "/image/projects/ai/javanese-translation/javanese-translation1.png",
-        "/image/projects/ai/javanese-translation/javanese-translation2.png"
-      ],
-      "tech": ["Transformers", "Python", "Tensorflow", "Flask", "HTML", "CSS"],
-      "slug": "javanese-translation",
-      "category": [2]
+      "slug": "sdn6-payabakong",
+      "category": [1]
     },
     {
       "show": true,
@@ -336,6 +335,26 @@
         "DataTables"
       ],
       "slug": "nu-ino-website",
+      "category": [1]
+    },
+    {
+      "show": false,
+      "title": "Personal Protfolio Website",
+      "desc": [
+        "A personal portfolio website that I created for a client. The website is built using two main tech, native (HTML, CSSS, JS) and react based (ReactJs, TailwindCSS, Typescript). The website also created based on the client design, and improved and sliced by me. The website has a few features such as a about page, a project page, resume page, and a contact page.",
+        "The website is created using a modern design and a clean interface that appeals to a wide audience. The website also has a responsive design that makes it easy to use on any device. The website also has a few animations that make the website more interactive and engaging."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/web/apii-portfolio/porto-thumbnail.jpg",
+      "images": [
+        "/image/projects/web/apii-portfolio/porto1.png",
+        "/image/projects/web/apii-portfolio/porto2.png",
+        "/image/projects/web/apii-portfolio/porto3.png"
+      ],
+      "tech": ["HTML", "CSS", "JS", "ReactJS", "TailwindCSS", "Typescript"],
+      "slug": "apii-porto",
       "category": [1]
     }
   ]

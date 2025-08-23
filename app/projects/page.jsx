@@ -20,7 +20,7 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 const category = {
   1: "Web Development",
-  2: "AI & Machine Learning",
+  2: "Desain Grafis",
   9: "Other",
 };
 
@@ -283,7 +283,7 @@ export default function Page() {
           className="flex justify-center items-center flex-col my-5 self-start "
         >
           <Button variation="primary">
-            <Link href="projects/archive">View In Archive</Link>
+            <Link href="projects/archive">Lihat di arsip</Link>
           </Button>
         </motion.div>
       </main>
