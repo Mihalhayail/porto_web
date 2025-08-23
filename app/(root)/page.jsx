@@ -401,7 +401,7 @@ const MyPage = () => {
                       />
                     </motion.a>
                     <motion.a
-                      href="https://www.linkedin.com/in/mihalhayail-mihalhayail-68171637a/"
+                      href="https://www.linkedin.com/in/mihalhayail-muhammad-sayuti-68171637a/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
