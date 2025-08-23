@@ -51,6 +51,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="26Upg6K7J5KNCVX-jF3nx0Dg7wQRIjuRFEk0JM2ZdZQ"
+        />
+      </head>
       <body>
         <ClientTopProgressBar />
         <Navbar />
