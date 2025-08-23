@@ -24,7 +24,7 @@ export default function Footer() {
               delay: 0.2,
             }}
           >
-            Ingin dibuatin web?
+            Ingin Kolaborasi?
           </motion.h2>
           <motion.h1
             className="text-5xl md:text-7xl font-medium mt-3  hover:underline whitespace-nowrap leading-none"

@@ -21,7 +21,7 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 const category = {
   1: "Web Development",
   2: "Desain Grafis",
-  9: "Other",
+  // 9: "Other",
 };
 
 export default function Page() {

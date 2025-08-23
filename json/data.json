@@ -115,50 +115,40 @@
       "category": [1]
     },
     {
-      "show": false,
-      "title": "Generative Trivia",
+      "show": true,
+      "title": "Sulthan Food",
       "desc": [
-        "A generative trivia website built with Next.js, Firebase, NextAuth, Google OAuth, and TypeScript. Users can generate trivia questions for predefined school subjects and answer them with a unique interactive input style. The application supports user authentication with Google and stores data in Firestore.",
-        "The project is a culmination of my passion for web development and my desire to create a fun and interactive learning platform. The website is designed to be user-friendly and engaging, with a clean and modern interface that appeals to a wide audience. The trivia questions are generated using the Gemini API, which provides a diverse range of questions for users to answer."
+        "Ini adalah banner yang saya desain untuk sebuah koperasi mesjid di aceh utara, agara memudahkan pengunjung untuk melihat menu dan memperindah tampilan.",
+        "Banner ini dibuat menggunakan photoshop, 2 banner besar atas bawah, dan 2 banner kecil samping kiri kanan."
       ],
       "year": "2024",
-      "preview": "https://generative-trivia.vercel.app/",
-      "code": "https://github.com/Alvalens/generative-trivia",
-      "thumbnail": "/image/projects/web/trivia/trivia-thumbnail.png",
+      "preview": "",
+      "code": "",
+      "thumbnail": "/image/projects/design/sulthan-food/sulthan-thumbnail.png",
       "images": [
-        "/image/projects/web/trivia/trivia1.png",
-        "/image/projects/web/trivia/trivia2.png",
-        "/image/projects/web/trivia/trivia3.png"
+        "/image/projects/design/sulthan-food/sulthan1.png",
+        "/image/projects/design/sulthan-food/sulthan-thumbnail.png",
+        "/image/projects/design/sulthan-food/sulthan2.jpg"
       ],
-      "tech": ["NextJS", "Shadcn UI", "Tailwind CSS", "Firebase", "Gemini API"],
-      "slug": "trivia",
-      "category": [1, 2]
+      "tech": ["Photoshop", "Canva", "Freepik", "Canva Pro"],
+      "slug": "sulthan-food",
+      "category": [2]
     },
     {
-      "show": false,
-      "title": "Saku Senyum",
+      "show": true,
+      "title": "Sejenak Coffee",
       "desc": [
-        "Saku Senyum is a website that I created as a Fullstack Developer in PT Hafdzahmedia based on client request. The website is a sales management for UMKM or small business. The website is built using Next.js, TypeScript, Tailwind CSS, ShadCN UI, Prisma, and MySQL.",
-        "The website has a few features such as a dashboard for the user to manage their business sales, a statistic page, and a sales report page. User can see their sales performance in a fancy chart to make it easier to understand. The user also can export their sales report to a PDF file which can be printed or saved to their device."
+        "Banner yang saya buat untuk sebuah kedai kopi di aceh utara, agar memperindah tampilan dan memudahkan pengunjung untuk melihat menu."
       ],
       "year": "2024",
-      "thumbnail": "/image/projects/web/saku-senyum/saku-senyum-thumbnail.png",
+      "thumbnail": "/image/projects/design/sejenak-coffee/sejenak-thumbnail.png",
       "images": [
-        "/image/projects/web/saku-senyum/saku-senyum1.png",
-        "/image/projects/web/saku-senyum/saku-senyum2.png",
-        "/image/projects/web/saku-senyum/saku-senyum3.png",
-        "/image/projects/web/saku-senyum/saku-senyum4.png"
+        "/image/projects/design/sejenak-coffee/sejenak1.png",
+        "/image/projects/design/sejenak-coffee/sejenak2.png"
       ],
-      "tech": [
-        "NextJS",
-        "Typescript",
-        "Shadcn UI",
-        "Tailwind CSS",
-        "Prisma",
-        "MySQL"
-      ],
-      "slug": "saku-senyum",
-      "category": [1]
+      "tech": ["Photoshop", "Adobe Illustrator", "Canva Pro"],
+      "slug": "sejenak-coffee",
+      "category": [2]
     },
     {
       "show": false,
