@@ -96,28 +96,26 @@
     },
     {
       "show": true,
-      "title": "SIPETI: Heart Prediction Website",
+      "title": "Rolex Invest",
       "desc": [
-        "This is a Machine Learning based website that I created as a collage project. The website is built using Decision Tree algorithm and Flask. The website is a heart attack prediction website that can predict whether a person will get a heart attack or not based on their health condition.",
-        "In this website user can predict, customize dataset, customize model, and see the model performance. The website also has a few features such as a dashboard for the user to see the model performance, and a few charts to visualize the decision tree model."
+        "Ini adalah web yang saya buat untuk melatih kemampuan saya dalam membuat web. Web ini dibuat menggunakan HTML, CSS, dan JavaScript.",
+        "Di website ini saya membuat halaman frotend nya saja, tidak ada backend. berisi halaman utama yang menampilkan deskripsi, foto slide, dan artikel. lalu ada halaman list jam, halaman tugas, hingga halaman akun sederhana."
       ],
       "year": "2024",
       "preview": "",
-      "code": "https://github.com/Alvalens/heart-attack-prediction",
-      "thumbnail": "/image/projects/ai/heart-attack-prediction/heart-attack-prediction-thumbnail.jpg",
+      "code": "https://github.com/mihalhayail/rolex",
+      "thumbnail": "/image/projects/web/rolex-invest/rolex-thumbnail.jpg",
       "images": [
-        "/image/projects/ai/heart-attack-prediction/heart-attack1.png",
-        "/image/projects/ai/heart-attack-prediction/heart-attack2.png",
-        "/image/projects/ai/heart-attack-prediction/heart-attack3.png",
-        "/image/projects/ai/heart-attack-prediction/heart-attack4.png",
-        "/image/projects/ai/heart-attack-prediction/heart-attack5.png"
+        "/image/projects/web/rolex-invest/rolex1.png",
+        "/image/projects/web/rolex-invest/rolex2.png",
+        "/image/projects/web/rolex-invest/rolex3.png"
       ],
-      "tech": ["Decision Tree", "Python", "Sklearn", "Flask", "HTML", "CSS"],
-      "slug": "heart-attack",
-      "category": [2]
+      "tech": ["JavaScript", "HTML", "CSS"],
+      "slug": "rolex-invest",
+      "category": [1]
     },
     {
-      "show": true,
+      "show": false,
       "title": "Generative Trivia",
       "desc": [
         "A generative trivia website built with Next.js, Firebase, NextAuth, Google OAuth, and TypeScript. Users can generate trivia questions for predefined school subjects and answer them with a unique interactive input style. The application supports user authentication with Google and stores data in Firestore.",
@@ -137,7 +135,7 @@
       "category": [1, 2]
     },
     {
-      "show": true,
+      "show": false,
       "title": "Saku Senyum",
       "desc": [
         "Saku Senyum is a website that I created as a Fullstack Developer in PT Hafdzahmedia based on client request. The website is a sales management for UMKM or small business. The website is built using Next.js, TypeScript, Tailwind CSS, ShadCN UI, Prisma, and MySQL.",
@@ -163,7 +161,7 @@
       "category": [1]
     },
     {
-      "show": true,
+      "show": false,
       "title": "Simadun",
       "desc": [
         "Simadun is an Exam Management System developed for doctoral students in the Department of Electrical Engineering and Informatics Universitas Negeri Malang. The system facilitates the management of five different types of examinations, allowing students to apply for exams with ease. Professors and program heads can efficiently oversee the exam processes.",
@@ -184,7 +182,7 @@
       "category": [1]
     },
     {
-      "show": true,
+      "show": false,
       "title": "LUDOang",
       "desc": [
         "LUDOang is a game that my team and I created for a final project in my university. The game is built python, pygame, and OpenGL. The game is a 2D game that is inspired by a Ludo game. The game has a few features such randomZone, and a 3D dice.",
@@ -205,7 +203,7 @@
       "category": [9]
     },
     {
-      "show": true,
+      "show": false,
       "title": "VICC Landing Page",
       "desc": [
         "This project is one of my freelance projects. This project is a landing page for Vocational Inter-cultural Camp event held by Vocational Faculty of Universitas Negeri Malang. The website is built using Next.js, Javascript, and Tailwind CSS.",
@@ -224,7 +222,7 @@
       "category": [1]
     },
     {
-      "show": true,
+      "show": false,
       "title": "React Realtime Chat",
       "desc": [
         "My ambitious project that delves into the world of interactive web development using React. This project is a realtime chat application that allows users to create chat rooms and chat with other users in realtime. The application is built using React, Firebase, and Daisy UI.",
@@ -245,7 +243,7 @@
       "category": [1]
     },
     {
-      "show": true,
+      "show": false,
       "title": "React Tools",
       "desc": [
         "React Tools is a groundbreaking and user-friendly project that brings together a comprehensive collection of tools and components crafted with cutting-edge technologies, including React, React Router, and TailwindCSS. What sets this project apart is that it's not just a suite of powerful features, but it's also a significant milestone as it marks my very first venture into the world of React development.",
@@ -269,7 +267,7 @@
       "category": [1]
     },
     {
-      "show": true,
+      "show": false,
       "title": "Aleph Discord Bot",
       "desc": [
         "Aleph is a Discord bot that I created for my dircord server to use. The bot is built using Python and the discord.py library. The bot has image grabber feauture that takes argument (keywords) and returns an image from the internet.",
@@ -288,7 +286,7 @@
       "category": [9]
     },
     {
-      "show": true,
+      "show": false,
       "title": "LPTK Cup 2023 Website",
       "desc": [
         "LPTK Cup UM is a website that I created for a competition held by  the Universitas Negeri Malang. The website is mainly built using Laravel and Bootstrap. The website has a few features such as a registration form, a login system, article system, file upload,  and a dashboard for the admin to manage the contents.",
@@ -309,7 +307,7 @@
       "category": [1]
     },
     {
-      "show": true,
+      "show": false,
       "title": "NU INO Website",
       "desc": [
         "My first freelance project. This project is a website for a School based on a JALAKAR curriculum. The website is built mainly using Laravel and Bootstrap.",
