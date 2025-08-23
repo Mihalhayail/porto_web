@@ -6,9 +6,9 @@ import Button from "@/components/Button";
 import Image from "next/image";
 
 // images
-import Intervyou1 from "@/public/image/projects/web/intervyou/intervyou-1.png";
-import Intervyou2 from "@/public/image/projects/web/intervyou/intervyou-2.png";
-import Intervyou3 from "@/public/image/projects/web/intervyou/intervyou-3.png";
+import Deraslife1 from "@/public/image/projects/web/deraslife/deraslife-1.png";
+import Deraslife2 from "@/public/image/projects/web/deraslife/deraslife-2.png";
+import Deraslife3 from "@/public/image/projects/web/deraslife/deraslife-3.png";
 import ProjectAll from "@/public/image/projects.jpg";
 
 import Hr from "@/components/Hr";
@@ -47,7 +47,7 @@ export default function Page() {
             >
               <Image
                 src={ProjectAll}
-                alt="Alvalens"
+                alt="Mihalhayail"
                 layout="fill"
                 objectFit="cover"
                 placeholder="blur"
@@ -60,10 +60,10 @@ export default function Page() {
             </h1>
             <Hr />
             <p className="title  text-xl mt-4 tracking-wider text-gray-900 leading-[1.7rem] mb-5">
-              List of my projects that I have done and{" "}
+              Urutan projek yang sudah{" "}
               <span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
                 {" "}
-                currently working on.
+                ku kerjakan.
               </span>
             </p>
             <motion.div
@@ -102,8 +102,8 @@ export default function Page() {
                   className="w-full h-full shadow-lg"
                 >
                   <Image
-                    src={Intervyou1}
-                    alt="Alvalens"
+                    src={Deraslife1}
+                    alt="Mihalhayail"
                     layout="fill"
                     objectFit="cover"
                     placeholder="blur"
@@ -127,8 +127,8 @@ export default function Page() {
                   className="w-full h-full shadow-lg "
                 >
                   <Image
-                    src={Intervyou3}
-                    alt="Alvalens"
+                    src={Deraslife3}
+                    alt="Mihalhayail"
                     layout="fill"
                     objectFit="cover"
                     placeholder="blur"
@@ -154,8 +154,8 @@ export default function Page() {
                   className="w-full h-full shadow-lg"
                 >
                   <Image
-                    src={Intervyou2}
-                    alt="Alvalens"
+                    src={Deraslife2}
+                    alt="Mihalhayail"
                     layout="fill"
                     objectFit="cover"
                     placeholder="blur"
@@ -180,25 +180,25 @@ export default function Page() {
             }}
           >
             <h2 className="text-2xl font-bold tracking-wider mb-3">
-              Intervyou AI
+              Blog Deraslife
             </h2>
             <p className="text-gray-600 text-justify title text-lg">
-              AI Based interview Preparation Website created to help fresh
-              graduates and job seekers prepare for interviews and optimize
-              their CV through AI-powered features. The website is built using
-              Next.js, TypeScript, Tailwind CSS, Shadcn UI, Prisma, and MySQL
-              (TiDB). This website can comprehensively analyze the user&apos;s
-              interview performance by providing a analysis of the user&apos;s
-              answer, gesture, and material recommendation to improve the
-              user&apos;s interview skills.
+              Deraslife adalah sebuah platform yang menghadirkan kabar terbaru
+              seputar hiburan, destinasi wisata, dan topik hangat dari seluruh
+              dunia. Kami tidak hanya menyajikan informasi, tapi juga menjadi
+              teman perjalanan dalam menemukan hiburan yang sesuai dengan
+              minatmu. <br /> <br />
+              Deraslife fokus pada topik-topik yang sedang hangat
+              diperbincangkan di indonesia. dengan tujuan untuk memberikan
+              informasi yang relevan dan menarik bagi pembaca kami.
             </p>{" "}
             <div className="mt-3">
               <Button variation="primary">
-                <Link href="projects/intervyou">More</Link>
+                <Link href="projects/deraslife">More</Link>
               </Button>
               <Button variation="secondary">
                 <a
-                  href="https://www.intervyou.me"
+                  href="https://www.deraslife.id"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -226,7 +226,7 @@ export default function Page() {
                 type: "spring",
               }}
             >
-              Other Note Worthy Projects
+              Proyek lain yang saya buat
             </motion.h1>
           </div>
         </div>
