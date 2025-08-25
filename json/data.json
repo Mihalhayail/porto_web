@@ -220,7 +220,7 @@
       "category": [2]
     },
     {
-      "show": false,
+      "show": true,
       "title": "Seenak Kios",
       "number": "10",
       "desc": [
@@ -233,7 +233,7 @@
       "images": [
         "/image/projects/design/seenak-kios/kios1.png",
         "/image/projects/design/seenak-kios/kios2.png",
-        "/image/projects/design/seenak-kios/kios3.png"
+        "/image/projects/design/seenak-kios/kios-thumbnail.png"
       ],
       "tech": ["Freepik", "Photoshop"],
       "slug": "seenak-kios",
