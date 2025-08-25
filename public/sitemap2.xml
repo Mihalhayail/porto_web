@@ -8,59 +8,79 @@
 
 
 <url>
-  <loc>https://www.alvalens.my.id/</loc>
-  <lastmod>2023-09-11T14:41:56+00:00</lastmod>
+  <loc>https://mihalhayail.vercel.app/</loc>
+  <lastmod>2025-08-25T19:29:06+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.alvalens.my.id/about</loc>
-  <lastmod>2023-09-11T14:41:56+00:00</lastmod>
+  <loc>https://mihalhayail.vercel.app/about</loc>
+  <lastmod>2025-08-25T19:29:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.alvalens.my.id/projects</loc>
-  <lastmod>2023-09-11T14:41:56+00:00</lastmod>
+  <loc>https://mihalhayail.vercel.app/projects</loc>
+  <lastmod>2025-08-25T19:29:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.alvalens.my.id/projects/react-chat</loc>
-  <lastmod>2023-09-11T14:41:56+00:00</lastmod>
+  <loc>https://mihalhayail.vercel.app/docs/cv.pdf</loc>
+  <lastmod>2025-08-25T19:29:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mihalhayail.vercel.app/projects/deraslife</loc>
+  <lastmod>2025-08-25T19:29:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.alvalens.my.id/projects/react-tools</loc>
-  <lastmod>2023-09-11T14:41:56+00:00</lastmod>
+  <loc>https://mihalhayail.vercel.app/projects/rujukan-santri</loc>
+  <lastmod>2025-08-25T19:29:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.alvalens.my.id/projects/aleph-discord-bot</loc>
-  <lastmod>2023-09-11T14:41:56+00:00</lastmod>
+  <loc>https://mihalhayail.vercel.app/projects/sdn6-payabakong</loc>
+  <lastmod>2025-08-25T19:29:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.alvalens.my.id/projects/lptk-cup-2023</loc>
-  <lastmod>2023-09-11T14:41:56+00:00</lastmod>
+  <loc>https://mihalhayail.vercel.app/projects/rolex-invest</loc>
+  <lastmod>2025-08-25T19:29:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.alvalens.my.id/projects/nu-ino-website</loc>
-  <lastmod>2023-09-11T14:41:56+00:00</lastmod>
+  <loc>https://mihalhayail.vercel.app/projects/archive</loc>
+  <lastmod>2025-08-25T19:29:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.alvalens.my.id/projects/unmuh-jember-landing-page</loc>
-  <lastmod>2023-09-11T14:41:56+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://mihalhayail.vercel.app/projects/sulthan-food</loc>
+  <lastmod>2025-08-25T19:29:06+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.alvalens.my.id/projects/my-first-portofolio-website</loc>
-  <lastmod>2023-09-11T14:41:56+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://mihalhayail.vercel.app/projects/sejenak-coffee</loc>
+  <lastmod>2025-08-25T19:29:06+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.alvalens.my.id/projects/archive</loc>
-  <lastmod>2023-09-11T14:41:56+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://mihalhayail.vercel.app/projects/doa-ayah-ibu</loc>
+  <lastmod>2025-08-25T19:29:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mihalhayail.vercel.app/projects/foodies-buw</loc>
+  <lastmod>2025-08-25T19:29:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mihalhayail.vercel.app/projects/gigantic-logo</loc>
+  <lastmod>2025-08-25T19:29:06+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mihalhayail.vercel.app/projects/seenak-kios</loc>
+  <lastmod>2025-08-25T19:29:06+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
