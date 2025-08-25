@@ -1,6 +1,7 @@
 {
   "Blog": [
     {
+      "show": true,
       "id": 1,
       "title": "Apa itu Git dan Kenapa Penting bagi Programmer?",
       "slug": "git-untuk-pemula",
@@ -14,13 +15,14 @@
       "content": "Git adalah salah satu sistem pengontrol versi (Version Control System) pada proyek perangkat lunak yang diciptakan oleh Linus Torvalds.",
       "excerpt": "Git adalah salah satu tool yang sering digunakan dalam proyek pengembangan software, Git bahkan menjadi tool yang wajib dipahami oleh programmer, karena banyak digunakan di mana-mana.",
       "thumbnail": "/image/projects/web/deraslife/deraslife-thumbnail.png",
-      "status": "published",
+      "category": [1],
       "meta": {
         "reading_time": "3 menit",
         "keywords": ["Git", "Coding", "VCS", "Programmer"]
       }
     },
     {
+      "show": true,
       "id": 2,
       "title": "Apakah Belajar AI perlu?",
       "slug": "belajar-ai",
@@ -34,7 +36,7 @@
       "content": "<p>Artificial Intelligence (AI) semakin banyak digunakan dalam dunia pendidikan...</p>",
       "excerpt": "Ai sudah sangat marak di zaman sekarang, semua menggunakannya, mulai dari yang muda sampai kaum boomer juga sudah mulai terpapar dengan ai.",
       "thumbnail": "/image/projects/web/deraslife/santri-thumbnail.png",
-      "status": "published",
+      "category": [2],
       "meta": {
         "reading_time": "2 menit",
         "keywords": ["AI", "Pendidikan", "Teknologi", "Digital Learning"]

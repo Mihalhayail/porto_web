@@ -4,16 +4,10 @@ import { motion } from "framer-motion";
 import PropTypes from "prop-types";
 import BlurImage from "@/public/image/placeholder/blur.jpg";
 
-import Link from "next/link";
-import Image from "next/image";
-import { motion } from "framer-motion";
-import PropTypes from "prop-types";
-import BlurImage from "@/public/image/placeholder/blur.jpg";
-
-export default function PostCard({ post, index, activeStatus }) {
+export default function PostCard({ post, index, activeCategory }) {
   return (
     <>
-      {post.status.includes(parseInt(activeStatus)) && (
+      {post.category.includes(parseInt(activeCategory)) && (
         <Link href={"blog/" + post.slug} key={index}>
           <motion.div
             className="z-10 relative flex justify-center items-start flex-col mb-5 md:px-10 w-full h-auto bg-gray-400 group/tes py-20 px-5 md:py-2 aspect-video "
@@ -66,9 +60,9 @@ export default function PostCard({ post, index, activeStatus }) {
   );
 }
 
-postCard.propTypes = {
+PostCard.propTypes = {
   post: PropTypes.object.isRequired,
   index: PropTypes.number.isRequired,
-  activeStatus: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+  activeCategory: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
     .isRequired,
 };
