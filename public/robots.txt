@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mihalhayail.vercel.app
+Sitemap: https://mihalhayail.vercel.app/sitemap2.xml
