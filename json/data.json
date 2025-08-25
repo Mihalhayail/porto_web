@@ -3,6 +3,7 @@
     {
       "show": true,
       "title": "Blog Deraslife",
+      "number": "01",
       "desc": [
         "Deraslife adalah sebuah platform yang menghadirkan kabar terbaru seputar hiburan, destinasi wisata, dan topik hangat dari seluruh dunia. Kami tidak hanya menyajikan informasi, tapi juga menjadi teman perjalanan dalam menemukan hiburan yang sesuai dengan minatmu.",
         "Web ini memiliki beberapa fitur, seperti dasbor untuk pengguna melihat traffik web dan pembaca artikel, fitur pencarian artikel, dan juga fitur kategori artikel. Web ini juga memiliki desain yang responsif, sehingga dapat diakses dengan baik di berbagai perangkat, mulai dari desktop hingga ponsel.",
@@ -37,6 +38,7 @@
     {
       "show": true,
       "title": "Rujukan Santri",
+      "number": "02",
       "desc": [
         "Website Rujukan Santri yang terintegrasi dengan google drive menyajikan beragam kitab-kitab turats di berbagai bidang keilmuan seperti fiqh, ushul fiqh hingga ilmu tauhid. Dengan website ini, santri dapat menulis artikel sembari berbagi ilmu dengan tidak hanya menyajikan materi etapi juga sumber-sumber secara digital.",
         "Website ini juga memiliki beberapa fitur seperti dashboard untuk menulis, memantau traffic,terhubung dengan Google Analytic dan SEO Search Engine Optimization, terlebih lagi dapat menganalisa perkembangan an mengevaluasi tulisan gar kedepannya mampu untuk menyajikan konten artikel yang lebih baik. Website ini juga memiliki fitur pencarian, filter artikel berdasarkan kategori hingga sitemap untuk SEO."
@@ -70,6 +72,7 @@
     {
       "show": true,
       "title": "SDN 6 Payabakong",
+      "number": "03",
       "desc": [
         "Website SDN 6 Payabakong adalah salah satu website yang dibangun untuk memperkenalkan Sekolah Dasar Negeri 6 Payabakong, dengan tampilan home page yang menampilkan Visi & Misi Sekolah secara singkat lalu memberikan sedikit biodata.",
         "Website SDN 6 Payabakong mempunyai beberapa fitur utama, seperti halaman untuk menulis artikel mengenai kegiatan dan acara sekolah, lalu halaman galeri yang berisi video dan foto kenangan sekolah tersebut, tidak lupa halaman lain seperti, struktur organisasi sekolah, data guru dan siswa, hingga beragam informasi menenai fasilitas ekstrakulikuler SDN 6."
@@ -97,6 +100,7 @@
     {
       "show": true,
       "title": "Rolex Invest",
+      "number": "04",
       "desc": [
         "Ini adalah web yang saya buat untuk melatih kemampuan saya dalam membuat web. Web ini dibuat menggunakan HTML, CSS, dan JavaScript.",
         "Di website ini saya membuat halaman frotend nya saja, tidak ada backend. berisi halaman utama yang menampilkan deskripsi, foto slide, dan artikel. lalu ada halaman list jam, halaman tugas, hingga halaman akun sederhana."
@@ -117,6 +121,7 @@
     {
       "show": true,
       "title": "Sulthan Food",
+      "number": "05",
       "desc": [
         "Ini adalah banner yang saya desain untuk sebuah koperasi mesjid di aceh utara, agara memudahkan pengunjung untuk melihat menu dan memperindah tampilan.",
         "Banner ini dibuat menggunakan photoshop, 2 banner besar atas bawah, dan 2 banner kecil samping kiri kanan."
@@ -137,6 +142,7 @@
     {
       "show": true,
       "title": "Sejenak Coffee",
+      "number": "06",
       "desc": [
         "Banner yang saya buat untuk sebuah kedai kopi di aceh utara, agar memperindah tampilan dan memudahkan pengunjung untuk melihat menu."
       ],
@@ -151,8 +157,9 @@
       "category": [2]
     },
     {
-      "show": false,
+      "show": true,
       "title": "Doa Ayah Ibu",
+      "number": "07",
       "desc": [
         "Banner yang saya buat untuk toko baju ofline dan online di matangkuli, aceh utara. banner ini dibuat untuk menarik perhatian pengunjung dan memberi info nama toko, alamat, dan nomor telepon.",
 
@@ -165,18 +172,19 @@
         "/image/projects/design/doa-ayah-ibu/toko2.png",
         "/image/projects/design/doa-ayah-ibu/toko3.png",
         "/image/projects/design/doa-ayah-ibu/toko4.png",
-        "/image/projects/design/doa-ayah-ibu/toko5.png"
+        "/image/projects/design/doa-ayah-ibu/toko-thumbnail.png"
       ],
-      "tech": ["Canva", "Freepik", "Photoshop", "DALL_EL"],
+      "tech": ["Canva", "Freepik", "Photoshop", "Adobe Illustrator"],
       "slug": "doa-ayah-ibu",
       "category": [2]
     },
     {
-      "show": false,
+      "show": true,
       "title": "Foodies BUW",
+      "number": "08",
       "desc": [
-        "LUDOang is a game that my team and I created for a final project in my university. The game is built python, pygame, and OpenGL. The game is a 2D game that is inspired by a Ludo game. The game has a few features such randomZone, and a 3D dice.",
-        "RandomZone is a feature that allows the player to get a random number of steps. The 3D dice is a feature that allows the player to roll a 3D dice. The game also has a few other features menuy screen and also loading screen."
+        "Untuk membantu salah satu UMKM punya kakak saya, saya membuat bebera[a banner dan flyer instragram untuk mempromosikan usaha makanan ringan yang bernama Foodies BUW. Banner dan flyer ini dibuat menggunakan photoshop dan canva.",
+        "Selain banner saya juga mendesain beberapa logo dan stiker sederhana guna mempermudah distribusi, dan juga digunakan untuk pesanan berskala besar"
       ],
       "year": "2024",
       "preview": "",
@@ -185,22 +193,23 @@
       "images": [
         "/image/projects/design/foodies-buw/foodies1.png",
         "/image/projects/design/foodies-buw/foodies2.png",
-        "/image/projects/design/foodies-buw/foodies3.png"
+        "/image/projects/design/foodies-buw/foodies-thumbnail.png"
       ],
-      "tech": ["Canva", "Freepik", "Photoshop", "DALL_EL"],
+      "tech": ["Canva", "Freepik", "Photoshop"],
       "slug": "foodies-buw",
       "category": [2]
     },
     {
-      "show": false,
+      "show": true,
       "title": "Gigantic Logo",
+      "number": "09",
       "desc": [
-        "This project is one of my freelance projects. This project is a landing page for Vocational Inter-cultural Camp event held by Vocational Faculty of Universitas Negeri Malang. The website is built using Next.js, Javascript, and Tailwind CSS.",
-        "The website is mainly frontend project, which is already using responsive design. The website has a few features such carousel, and a few animations. The website also has a few pages such as home, topic, and speaker page."
+        "Ini adalah salah satu logo yang saya buat untuk angakatan saya di MTSs, logo ini dibuat menggunakan photoshop dan adobe illustrator.",
+        "Logo ini dibuat dengan beberapa konsep dan filosofi, menggabungkan filosofi islami dan karakter pemimpin, mencerminkan angkatan ke-27 Gigantic."
       ],
       "year": "2024",
       "preview": "",
-      "thumbnail": "/image/projects/design/gigantic-logo/logo-thumbnail.jpg",
+      "thumbnail": "/image/projects/design/gigantic-logo/logo-thumbnail.png",
       "images": [
         "/image/projects/design/gigantic-logo/logo1.png",
         "/image/projects/design/gigantic-logo/logo2.png",
@@ -212,48 +221,23 @@
     },
     {
       "show": false,
-      "title": "React Realtime Chat",
+      "title": "Seenak Kios",
+      "number": "10",
       "desc": [
-        "My ambitious project that delves into the world of interactive web development using React. This project is a realtime chat application that allows users to create chat rooms and chat with other users in realtime. The application is built using React, Firebase, and Daisy UI.",
-        "This project is my second react project and my first project using Firebase. I learned a lot about how to use Firebase and how to use React to create a realtime application. I also learned how to use Daisy UI, a CSS framework that is built on top of Tailwind CSS. "
+        "Saya mendesain 3 banner untuk sebuah kios yang baru saja dibuat di geudong, aceh utata.",
+        "Banner menejlaskan nama kios, alamat, nomor telepon, dan juga beberapa menu yang dijual di kios tersebut. banner ini dibuat menggunakan photoshop."
       ],
-      "year": "2023",
-      "preview": "https://react-chat-rouge.vercel.app",
-      "code": "https://github.com/Alvalens/react-realtime-chat",
-      "thumbnail": "/image/projects/web/react-chat/chat-thumbnail.png",
+      "year": "2024",
+      "preview": "",
+      "thumbnail": "/image/projects/design/seenak-kios/kios-thumbnail.png",
       "images": [
-        "/image/projects/web/react-chat/chat1.png",
-        "/image/projects/web/react-chat/chat2.png",
-        "/image/projects/web/react-chat/chat3.png",
-        "/image/projects/web/react-chat/chat4.png"
+        "/image/projects/design/seenak-kios/kios1.png",
+        "/image/projects/design/seenak-kios/kios2.png",
+        "/image/projects/design/seenak-kios/kios3.png"
       ],
-      "tech": ["JavaScript", "React", "React Router", "Firebase", "Daisy UI"],
-      "slug": "react-chat",
-      "category": [1]
-    },
-    {
-      "show": false,
-      "title": "React Tools",
-      "desc": [
-        "React Tools is a groundbreaking and user-friendly project that brings together a comprehensive collection of tools and components crafted with cutting-edge technologies, including React, React Router, and TailwindCSS. What sets this project apart is that it's not just a suite of powerful features, but it's also a significant milestone as it marks my very first venture into the world of React development.",
-
-        "Unlike traditional web applications, React Tools cleverly utilizes browser local storage, eliminating the need for external databases. This not only ensures seamless performance but also prioritizes user data privacy. ",
-
-        "The Todo List keeps tasks in check with intuitive task management capabilities, ensuring you never miss a beat. The note-taking feature provides a hassle-free way to jot down ideas and crucial information, accessible whenever inspiration strikes. Additionally, our robust expense tracker simplifies financial management by recording and categorizing expenses, delivering insightful spending analysis."
-      ],
-      "year": "2023",
-      "preview": "https://react-tools-flax.vercel.app",
-      "code": "https://github.com/Alvalens/react-tools",
-      "thumbnail": "/image/projects/web/tools/tools-thumbnail.png",
-      "images": [
-        "/image/projects/web/tools/tools.png",
-        "/image/projects/web/tools/tools1.png",
-        "/image/projects/web/tools/tools2.png",
-        "/image/projects/web/tools/tools3.png"
-      ],
-      "tech": ["Javascript", "React", "React Router", "TailwindCSS"],
-      "slug": "react-tools",
-      "category": [1]
+      "tech": ["Freepik", "Photoshop"],
+      "slug": "seenak-kios",
+      "category": [2]
     }
   ]
 }

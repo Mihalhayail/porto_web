@@ -76,6 +76,7 @@ export default function Page() {
             <table className="space-y-3">
               <thead>
                 <tr className=" hover:shadow-md  transition-all ease duration-500">
+                  <th className="text-start">No.</th>
                   <th className="text-start">Year</th>
                   <th className="text-start">Title</th>
                   <th className="text-start">Tools</th>
@@ -88,6 +89,7 @@ export default function Page() {
                     key={index}
                     className="hover:shadow-md transition-all ease duration-500"
                   >
+                    <td>{project.number}</td>
                     <td>{project.year}</td>
                     <td>
                       <Link href={`/projects/${project.slug}`}>
