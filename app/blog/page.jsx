@@ -26,7 +26,7 @@ const category = {
 
 export default function Page() {
   const [activeCategory, setActiveCategory] = useState(1);
-  const blog = Blog.Blog.filter((item) => item.publish === true);
+  const blog = Blog.Blog.filter((item) => item.show === true);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -81,133 +81,133 @@ export default function Page() {
               <Button variation="primary">Scroll Down</Button>
             </motion.div>
           </div>
-        </div> 
+        </div>
         <div className="mt-10 flex flex-col justify-start items-center w-full pl-10 md:pl-32">
           <div className="flex justify-center items-center flex-col my-5 self-start ">
             <Hr variant="long"></Hr>
             <h1 className="text-3xl font-bold mt-3">Hightlight</h1>
           </div>
         </div>
-        <div className="relative w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-2 mb-10">
-          <div className="flex justify-center items-start flex-col mb-5 ">
-            <div className="images relative w-full  aspect-square">
-              <div className="absolute top-28 left-10 h-[40%]  aspect-video grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150 z-10">
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.5, x: 100 }}
-                  whileInView={{
-                    opacity: 1,
-                    scale: 1,
-                    x: 0,
-                  }}
-                  className="w-full h-full shadow-lg"
-                >
-                  <Image
-                    src={Deraslife1}
-                    alt="Mihalhayail"
-                    layout="fill"
-                    objectFit="cover"
-                    placeholder="blur"
-                    className="rat"
-                  />
-                </motion.div>
-              </div>
-              <div className="absolute top-10 right-28 h-[30%]  aspect-video grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150">
-                <motion.div
-                  initial={{
-                    opacity: 0,
-                    scale: 0.5,
-                    x: -100,
-                  }}
-                  whileInView={{
-                    opacity: 1,
-                    scale: 1,
-                    x: 0,
-                  }}
-                  transition={{ delay: 0.3 }}
-                  className="w-full h-full shadow-lg "
-                >
-                  <Image
-                    src={Deraslife3}
-                    alt="Mihalhayail"
-                    layout="fill"
-                    objectFit="cover"
-                    placeholder="blur"
-                    objectPosition="0% 0%"
-                  />
-                </motion.div>
-              </div>
-              <div className="absolute bottom-10 md:bottom-26 right-20 h-[35%]  aspect-video grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150">
-                <motion.div
-                  initial={{
-                    opacity: 0,
-                    scale: 0.5,
-                    x: -100,
-                  }}
-                  whileInView={{
-                    opacity: 1,
-                    scale: 1,
-                    x: 0,
-                  }}
-                  transition={{
-                    delay: 0.5,
-                  }}
-                  className="w-full h-full shadow-lg"
-                >
-                  <Image
-                    src={Deraslife2}
-                    alt="Mihalhayail"
-                    layout="fill"
-                    objectFit="cover"
-                    placeholder="blur"
-                  />
-                </motion.div>
-              </div>
-            </div>
-          </div>
-          <motion.div
-            className="flex justify-center items-start flex-col mb-5 md:px-10"
-            initial={{
-              opacity: 0,
-              x: 200,
-            }}
-            whileInView={{
-              opacity: 1,
-              x: 0,
-            }}
-            transition={{
-              delay: 0.5,
-              type: "spring",
-            }}
-          >
-            <h2 className="text-2xl font-bold tracking-wider mb-3">
-              Blog Deraslife
-            </h2>
-            <p className="text-gray-600 text-justify title text-lg">
-              Deraslife adalah sebuah platform yang menghadirkan kabar terbaru
-              seputar hiburan, destinasi wisata, dan topik hangat dari seluruh
-              dunia. Kami tidak hanya menyajikan informasi, tapi juga menjadi
-              teman perjalanan dalam menemukan hiburan yang sesuai dengan
-              minatmu. <br /> <br />
-              Deraslife fokus pada topik-topik yang sedang hangat
-              diperbincangkan di indonesia. dengan tujuan untuk memberikan
-              informasi yang relevan dan menarik bagi pembaca kami.
-            </p>{" "}
-            <div className="mt-3">
-              <Button variation="primary">
-                <Link href="projects/deraslife">More</Link>
-              </Button>
-              <Button variation="secondary">
-                <a
-                  href="https://www.deraslife.id"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Preview
-                </a>
-              </Button>
-            </div>
-          </motion.div>
-        </div> */}
+//         <div className="relative w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-2 mb-10">
+//           <div className="flex justify-center items-start flex-col mb-5 ">
+//             <div className="images relative w-full  aspect-square">
+//               <div className="absolute top-28 left-10 h-[40%]  aspect-video grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150 z-10">
+//                 <motion.div
+//                   initial={{ opacity: 0, scale: 0.5, x: 100 }}
+//                   whileInView={{
+//                     opacity: 1,
+//                     scale: 1,
+//                     x: 0,
+//                   }}
+//                   className="w-full h-full shadow-lg"
+//                 >
+//                   <Image
+//                     src={Deraslife1}
+//                     alt="Mihalhayail"
+//                     layout="fill"
+//                     objectFit="cover"
+//                     placeholder="blur"
+//                     className="rat"
+//                   />
+//                 </motion.div>
+//               </div>
+//               <div className="absolute top-10 right-28 h-[30%]  aspect-video grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150">
+//                 <motion.div
+//                   initial={{
+//                     opacity: 0,
+//                     scale: 0.5,
+//                     x: -100,
+//                   }}
+//                   whileInView={{
+//                     opacity: 1,
+//                     scale: 1,
+//                     x: 0,
+//                   }}
+//                   transition={{ delay: 0.3 }}
+//                   className="w-full h-full shadow-lg "
+//                 >
+//                   <Image
+//                     src={Deraslife3}
+//                     alt="Mihalhayail"
+//                     layout="fill"
+//                     objectFit="cover"
+//                     placeholder="blur"
+//                     objectPosition="0% 0%"
+//                   />
+//                 </motion.div>
+//               </div>
+//               <div className="absolute bottom-10 md:bottom-26 right-20 h-[35%]  aspect-video grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150">
+//                 <motion.div
+//                   initial={{
+//                     opacity: 0,
+//                     scale: 0.5,
+//                     x: -100,
+//                   }}
+//                   whileInView={{
+//                     opacity: 1,
+//                     scale: 1,
+//                     x: 0,
+//                   }}
+//                   transition={{
+//                     delay: 0.5,
+//                   }}
+//                   className="w-full h-full shadow-lg"
+//                 >
+//                   <Image
+//                     src={Deraslife2}
+//                     alt="Mihalhayail"
+//                     layout="fill"
+//                     objectFit="cover"
+//                     placeholder="blur"
+//                   />
+//                 </motion.div>
+//               </div>
+//             </div>
+//           </div>
+//           <motion.div
+//             className="flex justify-center items-start flex-col mb-5 md:px-10"
+//             initial={{
+//               opacity: 0,
+//               x: 200,
+//             }}
+//             whileInView={{
+//               opacity: 1,
+//               x: 0,
+//             }}
+//             transition={{
+//               delay: 0.5,
+//               type: "spring",
+//             }}
+//           >
+//             <h2 className="text-2xl font-bold tracking-wider mb-3">
+//               Blog Deraslife
+//             </h2>
+//             <p className="text-gray-600 text-justify title text-lg">
+//               Deraslife adalah sebuah platform yang menghadirkan kabar terbaru
+//               seputar hiburan, destinasi wisata, dan topik hangat dari seluruh
+//               dunia. Kami tidak hanya menyajikan informasi, tapi juga menjadi
+//               teman perjalanan dalam menemukan hiburan yang sesuai dengan
+//               minatmu. <br /> <br />
+//               Deraslife fokus pada topik-topik yang sedang hangat
+//               diperbincangkan di indonesia. dengan tujuan untuk memberikan
+//               informasi yang relevan dan menarik bagi pembaca kami.
+//             </p>{" "}
+//             <div className="mt-3">
+//               <Button variation="primary">
+//                 <Link href="projects/deraslife">More</Link>
+//               </Button>
+//               <Button variation="secondary">
+//                 <a
+//                   href="https://www.deraslife.id"
+//                   target="_blank"
+//                   rel="noopener noreferrer"
+//                 >
+//                   Preview
+//                 </a>
+//               </Button>
+//             </div>
+//           </motion.div>
+//         </div> */}
 
         {/* Mulai dari sini */}
         <div className="mt-16 flex flex-col justify-start items-center w-full pl-10 md:pl-32">
@@ -264,7 +264,7 @@ export default function Page() {
         </motion.div>
 
         {/* Blog */}
-        <div className="w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-2 mb-10 cursor-pointer">
+        <div className="w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-3 mb-10 cursor-pointer">
           {blog.map((post, index) => (
             <PostCard post={post} key={index} activeCategory={activeCategory} />
           ))}

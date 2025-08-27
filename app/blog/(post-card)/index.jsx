@@ -38,9 +38,9 @@ export default function PostCard({ post, index, activeCategory }) {
             <div className="transition-all ease duration-500 opacity-100 post text-center group-hover/tes:opacity-0 z-10">
               <h1 className="text-3xl font-bold mb-3">{post.title}</h1>
               <p>
-                {post.excerpt[0].length > 125
-                  ? `${post.excerpt[0].slice(0, 125)}...`
-                  : post.excerpt[0]}
+                {post.desc[0].length > 100
+                  ? `${post.desc[0].slice(0, 100)}...`
+                  : post.desc[0]}
               </p>
               <div className="flex justify-center items-center flex-row mt-5 flex-wrap">
                 {post.categories.map((t, index) => (
