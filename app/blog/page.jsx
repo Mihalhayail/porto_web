@@ -210,7 +210,7 @@ export default function Page() {
 //         </div> */}
 
         {/* Mulai dari sini */}
-        <div className="mt-16 flex flex-col justify-start items-center w-full pl-10 md:pl-32">
+        <div className="mt-16 flex flex-col justify-start items-center w-full pl-10 md:pl-30 lg:pl-10">
           <div className="flex justify-center items-center flex-col my-5 self-start">
             <Hr variant="long"></Hr>
             <motion.h1
@@ -246,7 +246,7 @@ export default function Page() {
           transition={{
             type: "spring",
           }}
-          className="flex flex-row justify-left pl-30 items-start flex-wrap gap-3 md:gap-5 my-5 "
+          className="flex flex-row justify-left pl-10 md:pl-30 lg:pl-10 items-start flex-wrap gap-3 md:gap-5 my-5 "
         >
           {Object.keys(category).map((key, index) => (
             <button
@@ -264,7 +264,7 @@ export default function Page() {
         </motion.div>
 
         {/* Blog */}
-        <div className="w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-3 mb-10 cursor-pointer">
+        <div className="w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-10 cursor-pointer">
           {blog.map((post, index) => (
             <PostCard post={post} key={index} activeCategory={activeCategory} />
           ))}
@@ -278,7 +278,7 @@ export default function Page() {
           whileInView={{
             opacity: 1,
           }}
-          className="flex justify-left pl-30 items-start flex-col my-5 self-start "
+          className="flex justify-left pl-10 md:pl-30 lg:pl-10 items-start flex-col my-5 self-start "
         >
           <Button variation="primary">
             <Link href="blog/article">Lihat Artikel Lainnya</Link>
