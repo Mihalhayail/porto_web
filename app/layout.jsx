@@ -23,19 +23,19 @@ export const metadata = {
     "mihal",
     "mihal hayail",
     "hayail",
-    "mihalhayail portofolio",
-    "mihalhayail portofolio website",
-    "bloodfallen",
-    "mohal porto",
+    "mihalhayail portfolio",
+    "mihalhayail portfolio website",
+    "portfolio mihal hayail ",
+    "mihal cv",
     "mihal haya",
   ],
 
   openGraph: {
     type: "website",
     url: "https://www.mihalhayail.my.id",
-    title: "Mihalhayail | Portofolio",
-    site_name: "Mihalhayail | Portofolio",
-    description: "My name is Mihalhayail, This is my portofolio website.",
+    title: "Mihalhayail | Portfolio",
+    site_name: "Mihalhayail | Portfolio",
+    description: "Hi, I am Mihalhayail, This is my portfolio website.",
     width: 1200,
     height: 630,
     images: [
@@ -44,7 +44,7 @@ export const metadata = {
         alt: "Mihalhayail Portofolio",
       },
     ],
-    site_name: "Mihalhayail | Portofolio",
+    site_name: "Mihalhayail | Portfolio",
   },
 };
 
