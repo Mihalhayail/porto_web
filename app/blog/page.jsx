@@ -228,7 +228,7 @@ export default function Page() {
                 type: "spring",
               }}
             >
-              Baca artikelku yang terbaru.
+              Baca Artikelku yang terbaru.
             </motion.h1>
           </div>
         </div>
