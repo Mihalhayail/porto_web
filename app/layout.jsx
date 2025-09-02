@@ -9,7 +9,7 @@ import Chat from "@/components/Chat";
 import ClientTopProgressBar from "@/components/ClientTopProgressBar";
 
 export const metadata = {
-  title: "Mihalhayail | Portofolio",
+  title: "Mihalhayail | Portfolio",
 
   description:
     "My name is Mihalhayail, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Negeri Malang.",
@@ -41,7 +41,7 @@ export const metadata = {
     images: [
       {
         url: "/og-image-rev.png",
-        alt: "Mihalhayail Portofolio",
+        alt: "Mihalhayail Portfolio",
       },
     ],
     site_name: "Mihalhayail | Portfolio",
