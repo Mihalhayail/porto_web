@@ -15,7 +15,7 @@ export const metadata = {
     "My name is Mihalhayail, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Negeri Malang.",
 
   author: "Mihalhayail",
-  siteUrl: "https://www.mihalhayail.my.id",
+  siteUrl: "https://mihalhayail.vercel.app",
   applicationName: "Mihalhayail",
 
   keywords: [
@@ -32,7 +32,7 @@ export const metadata = {
 
   openGraph: {
     type: "website",
-    url: "https://www.mihalhayail.my.id",
+    url: "https://mihalhayail.vercel.app",
     title: "Mihalhayail | Portfolio",
     site_name: "Mihalhayail | Portfolio",
     description: "Hi, I am Mihalhayail, This is my portfolio website.",
