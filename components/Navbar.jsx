@@ -112,7 +112,7 @@ const NavItems = ({ isNavOpen, setIsNavOpen }) => {
         animate={isNavOpen ? "open" : "closed"}
         initial={false}
       >
-        <div className="relative backdrop-blur-sm opacity-95 flex flex-col items-center space-x-8 min-h-[100vh] bg-gray-700 min-w-[100vw] ">
+        <div className="relative backdrop-blur-sm opacity-85 flex flex-col items-center space-x-8 min-h-[100vh] bg-[#2c2c2c] min-w-[100vw] ">
           <div className="flex flex-col items-center space-y-8 my-auto mx-0 z-50">
             {/* title */}
             <motion.h1
@@ -201,9 +201,9 @@ const Navbar = () => {
     <>
       <nav
         ref={navRef}
-        className={`navbar px-5 md:px-24 w-screen fixed transition-colors ease duration-500 ${
+        className={`navbar bg-[#1a1a1a] px-5 md:px-24 w-screen fixed transition-colors ease duration-500 ${
           isNavOpen
-            ? "backdrop-filter backdrop-blur-md bg-gray-700 bg-opacity-50"
+            ? "backdrop-filter backdrop-blur-md bg-[#1a1a1a] bg-opacity-50"
             : "backdrop-filter backdrop-blur-md"
         } inset-0  bg-opacity-50 flex flex-row justify-between items-center h-16 z-50 `}
       >
@@ -222,12 +222,12 @@ const Navbar = () => {
             onClick={toggleNav}
           >
             <div
-              className={`w-10 h-1 bg-black rounded-full transition-all ease duration-300 ${
+              className={`w-10 h-1 bg-white rounded-full transition-all ease duration-300 ${
                 isNavOpen ? "rotate-45   bg-white translate-y-[2px]" : ""
               }`}
             ></div>
             <div
-              className={`w-10 h-1 bg-black rounded-full transition-all ease duration-300 ${
+              className={`w-10 h-1 bg-white rounded-full transition-all ease duration-300 ${
                 isNavOpen ? "-rotate-45 -translate-y-2 bg-white" : ""
               }`}
             ></div>

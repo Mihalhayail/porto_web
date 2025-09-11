@@ -59,7 +59,7 @@ const MyPage = () => {
                     </div>
                   </div>
                   <motion.h3
-                    className="uppercase text-xl mb-3 font-normal text tracking-[.5rem] text-gray-500"
+                    className="uppercase text-xl mb-1 font-normal text tracking-[.5rem] text-gray-100"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -70,7 +70,7 @@ const MyPage = () => {
                     Mihalhayail
                   </motion.h3>
                   <motion.h1
-                    className="text-black text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold my-2 md:my-5"
+                    className="text-white text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold my-2 md:my-5"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -81,7 +81,7 @@ const MyPage = () => {
                     Arabic & Tech Enthusiast
                   </motion.h1>
                   <motion.p
-                    className="title text-md  2xl:text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem]"
+                    className="title text-md  2xl:text-xl mt-4 tracking-wider text-gray-100 leading-[1.7rem]"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -175,7 +175,7 @@ const MyPage = () => {
                 </div>
                 <div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 py-5">
                   <motion.h1
-                    className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-8xl font-bold"
+                    className="bg-[#1a1a1a] lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-white text-5xl md:text-8xl font-bold"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -187,7 +187,7 @@ const MyPage = () => {
                   </motion.h1>
                   <Hr />
                   <motion.p
-                    className="title  text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5"
+                    className="title  text-xl mt-4 tracking-wider text-gray-100 leading-[1.7rem] mb-5"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -245,7 +245,7 @@ const MyPage = () => {
                 </div>
                 <div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 py-5">
                   <motion.h1
-                    className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-8xl font-bold"
+                    className="bg-[#1a1a1a] lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-white text-5xl md:text-8xl font-bold"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -257,7 +257,7 @@ const MyPage = () => {
                   </motion.h1>
                   <Hr />
                   <motion.p
-                    className="title  text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5"
+                    className="title  text-xl mt-4 tracking-wider text-gray-100 leading-[1.7rem] mb-5"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -319,7 +319,7 @@ const MyPage = () => {
                 </div>
                 <div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 overflow-hidden">
                   <motion.h1
-                    className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-8xl font-bold mb-3"
+                    className="bg-[#1a1a1a] lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-white text-5xl md:text-8xl font-bold mb-3"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -331,7 +331,7 @@ const MyPage = () => {
                   </motion.h1>
                   <Hr />
                   <motion.p
-                    className="title text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] md:mb-5"
+                    className="title text-xl mt-4 tracking-wider text-gray-100 leading-[1.7rem] md:mb-5"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -342,7 +342,7 @@ const MyPage = () => {
                     Jangan ragu hubungi aku jika kamu memiliki pertanyaan.{" "}
                   </motion.p>
                   <motion.p
-                    className="title text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5"
+                    className="title text-xl mt-4 tracking-wider text-gray-100 leading-[1.7rem] mb-5"
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{
@@ -358,7 +358,7 @@ const MyPage = () => {
                   <div className="flex justify-center items-center space-x-4">
                     <motion.a
                       href="mailto:mihalhayail85@gmail.com?subject=Hello&body=Hello Mihalhayail,"
-                      className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
+                      className="flex justify-center items-center bg-teal-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
                       initial={{ y: 40, opacity: 0 }}
                       whileInView={{ y: 0, opacity: 1 }}
                       transition={{
@@ -373,7 +373,7 @@ const MyPage = () => {
                       href="https://github.com/mihalhayail"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
+                      className="flex justify-center items-center bg-teal-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
                       initial={{ opacity: 0, y: 40 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{
@@ -387,7 +387,7 @@ const MyPage = () => {
                       href="https://www.instagram.com/mihal_hayail/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
+                      className="flex justify-center items-center bg-teal-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
                       initial={{ opacity: 0, y: 40 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{
@@ -404,7 +404,7 @@ const MyPage = () => {
                       href="https://www.linkedin.com/in/mihalhayail-muhammad-sayuti-68171637a/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
+                      className="flex justify-center items-center bg-teal-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
                       initial={{ opacity: 0, y: 40 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{
@@ -418,7 +418,7 @@ const MyPage = () => {
                       href="https://discordapp.com/users/1239917726957572147"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
+                      className="flex justify-center items-center bg-teal-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
                       initial={{ opacity: 0, y: 40 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{
