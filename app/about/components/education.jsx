@@ -217,7 +217,7 @@ export default function Education() {
                 </div>
               </div>
               <div className="flex items-center gap-2">
-                <p className="text-gray-600 text-justify title text-lg">
+                <p className="text-gray-100 text-justify title text-lg">
                   Di MIN 6 Aceh Utara, Aku memulai perjalanan pendidikan dengan
                   fokus pada dasar-dasar ilmu pengetahuan umum dan agama. Aku
                   belajar membaca, menulis, dan berhitung, serta mulai memahami
@@ -225,7 +225,7 @@ export default function Education() {
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mt-4 text-sm">
-                <div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
+                <div className="bg-gray-100 text-black px-2 py-1 rounded-2xl">
                   Nilai : Istimewa
                 </div>
               </div>
@@ -271,7 +271,7 @@ export default function Education() {
                 </div>
               </div>
               <div className="flex items-center gap-2">
-                <p className="text-gray-600 text-justify title text-lg">
+                <p className="text-gray-100 text-justify title text-lg">
                   Di Dayah Terpadu Al-Muslimun, aku lebih fokus pada
                   pembalajaran agama Islam, terutama pada hafalan
                   Al-Qur&apos;an. Aku membangun fondasiku pada nilai-nilai Islam
@@ -279,7 +279,7 @@ export default function Education() {
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mt-4 text-sm">
-                <div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
+                <div className="bg-gray-100 text-black px-2 py-1 rounded-2xl">
                   Status : Alumni
                 </div>
               </div>
@@ -325,10 +325,10 @@ export default function Education() {
                 </div>
               </div>
               <div className="flex items-center gap-2">
-                <p className="text-gray-600 text-justify title text-lg">
+                <p className="text-gray-100 text-justify title text-lg">
                   Di PMD Gontor, aku menjalani pendidikan intensif selama 2,5
                   tahun, di mana aku belajar{" "}
-                  <span className="text-black font-medium">
+                  <span className="text-gray-300 font-medium">
                     bahasa Arab dan bahasa Inggris,
                   </span>{" "}
                   aku fokus pada pengembangan soft skills seperti kepemimpinan,
@@ -342,7 +342,7 @@ export default function Education() {
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mt-4 text-sm">
-                <div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
+                <div className="bg-gray-100 text-black px-2 py-1 rounded-2xl">
                   Status : Alumnus
                 </div>
               </div>
@@ -389,12 +389,14 @@ export default function Education() {
                 </div>
               </div>
               <div className="flex items-center gap-2">
-                <p className="text-gray-600 text-justify title text-lg">
+                <p className="text-gray-100 text-justify title text-lg">
                   Bercita-cita menjadi seorang Sastrawan sekaligus yang ahli
                   dalam Teknologi, aku saat ini sedang menempuh pendidikan{" "}
-                  <span className="text-black font-medium">S1 Bahasa Arab</span>{" "}
+                  <span className="text-gray-300 font-medium">
+                    S1 Bahasa Arab
+                  </span>{" "}
                   di{" "}
-                  <span className="text-black font-medium">
+                  <span className="text-gray-300 font-medium">
                     Universitas Al-Azhar Mesir
                   </span>
                   . Perjalanan aku di bidang sastra arab sekaligus teknologi
@@ -407,20 +409,11 @@ export default function Education() {
                   pengembangan teknologi yang sering dianggap bertolak belakang.
                   Aku memiliki ambisi dengan memiliki pengalaman mengetuai
                   berbagai organisasi dan kepanitiaan, aku bisa memajukan dunia
-                  sastra arab dengan teknologi yang aku kuasai.{" "}
-                  {/* <span className="text-black font-medium">
-                    national or international technology competitions
-                  </span>
-                  , earning recognition through awards such as{" "}
-                  <span className="text-black font-medium">
-                    PIMNAS Finalist, Indonesia Inventor Day Gold Medalist, Top 3
-                    at LIDM 2024
-                  </span>
-                  , and more. */}
+                  sastra arab dengan teknologi yang aku kuasai. {}
                   <br />
                   <br />
                   Aku yakin dengan menggabungkan{" "}
-                  <span className="text-black font-medium">
+                  <span className="text-gray-300 font-medium">
                     filsafat, sastra arab, dan teknologi
                   </span>{" "}
                   dalam diri aku. aku akan tumbuh dengan nilai-nilai zaman
@@ -431,7 +424,7 @@ export default function Education() {
                 </p>
               </div>
               <div className="flex flex-wrap gap-2 mt-4 text-sm">
-                <div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
+                <div className="bg-gray-100 text-black px-2 py-1 rounded-2xl">
                   نتيجة : مقبول
                 </div>
               </div>
@@ -468,8 +461,8 @@ export default function Education() {
                       visibleAchievements[index - 1]?.year !==
                         achievement.year ? (
                         <div className="flex items-center gap-3 mb-3 mt-2">
-                          <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center">
-                            <span className="text-xs font-bold text-gray-600">
+                          <div className="w-8 h-8 rounded-full bg-[#1e1e1e] flex items-center justify-center">
+                            <span className="text-xs font-bold text-gray-200">
                               {achievement.year}
                             </span>
                           </div>
@@ -478,7 +471,7 @@ export default function Education() {
                       ) : null}
 
                       {/* Glassmorphism achievement card with monochrome to color effect */}
-                      <div className="bg-white/20 backdrop-blur-md border border-white/30 rounded-2xl p-4 shadow-lg hover:bg-white/30 transition-all duration-300 hover:shadow-xl grayscale hover:grayscale-0">
+                      <div className="bg-black/20 backdrop-blur-md border border-white/30 rounded-2xl p-4 shadow-lg hover:bg-white/30 transition-all duration-300 hover:shadow-xl grayscale hover:grayscale-0">
                         <div className="flex items-center gap-4">
                           <div
                             className={`aspect-square w-10 rounded-full bg-gradient-to-r ${achievement.color} flex items-center justify-center text-primary-foreground transition-all duration-300`}
@@ -491,7 +484,7 @@ export default function Education() {
                           <div>
                             <h3 className="font-medium">{achievement.title}</h3>
                             <p className="text-sm">{achievement.subtitle}</p>
-                            <div className="text-xs text-gray-500 mt-1">
+                            <div className="text-xs text-gray-100 mt-1">
                               {achievement.date}
                             </div>
                           </div>

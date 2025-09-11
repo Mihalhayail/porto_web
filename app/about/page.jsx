@@ -54,9 +54,9 @@ export default function Page() {
             <Hr />
             <p className="title text-xl mt-4 tracking-wider text-gray-100 leading-[1.7rem] mb-5 ">
               Pengenalan singkat mengenai{" "}
-              <span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
+              <span className="bg-transparent md:bg-zinc-900 bg-opacity-50 xl:bg-transparent">
                 {" "}
-                personality.
+                identity
               </span>
             </p>
             <motion.div
