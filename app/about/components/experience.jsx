@@ -148,23 +148,23 @@ function TimelineCard({ experience, index, isEven }) {
           : "md:justify-center md:-translate-x-68"
       } justify-center mb-4`}
     >
-      <div className="bg-gradient-to-r from-black to-gray-800 text-white px-12 py-3 rounded-xl shadow-lg border border-gray-600 min-w-max">
+      <div className="bg-gradient-to-r from-black to-teal-800 text-white px-12 py-3 rounded-xl shadow-lg border border-gray-600 min-w-max">
         <div className="flex items-center justify-center gap-6">
           <div className="text-center">
             <div className="text-sm font-bold">{experience.startDate}</div>
-            <div className="text-xs text-gray-300">Start</div>
+            <div className="text-xs text-gray-200">Start</div>
           </div>
           <div className="w-px h-8 bg-gray-500"></div>
           <div className="text-center">
             <div className="text-sm font-bold">{experience.endDate}</div>
-            <div className="text-xs text-gray-300">End</div>
+            <div className="text-xs text-gray-200">End</div>
           </div>{" "}
           <div className="w-px h-8 bg-gray-500"></div>
           <div className="text-center">
-            <div className="text-sm font-medium text-gray-400">
+            <div className="text-sm font-medium text-gray-300">
               {experience.location}
             </div>
-            <div className="text-xs text-gray-300">Location</div>
+            <div className="text-xs text-gray-200">Location</div>
           </div>
         </div>
       </div>
@@ -185,15 +185,15 @@ function ExperienceCard({ experience, index, isEven }) {
       {" "}
       {/* Card */}
       <div
-        className={`bg-white/20 backdrop-blur-sm border border-gray-300/30 rounded-2xl p-6 shadow-lg 
+        className={`bg-black/20 backdrop-blur-sm border border-gray-300/30 rounded-2xl p-6 shadow-lg 
 				hover:shadow-xl hover:bg-white/30 transition-all duration-300 ml-12 md:ml-0`}
       >
         {/* Company & Position */}
         <div className="mb-4">
-          <h3 className="font-bold text-xl text-black mb-1">
+          <h3 className="font-bold text-xl text-white mb-1">
             {experience.company}
           </h3>
-          <h4 className="font-medium text-lg text-gray-700">
+          <h4 className="font-medium text-lg text-gray-400">
             {experience.position}
             <span className="text-sm font-normal text-gray-500 ml-2">
               • {experience.type}
@@ -202,7 +202,7 @@ function ExperienceCard({ experience, index, isEven }) {
         </div>
 
         {/* Description */}
-        <p className="text-gray-600 text-justify leading-relaxed mb-4">
+        <p className="text-gray-300 text-justify leading-relaxed mb-4">
           {experience.description}
         </p>
 
@@ -211,7 +211,7 @@ function ExperienceCard({ experience, index, isEven }) {
           {experience.skills.map((skill, idx) => (
             <span
               key={idx}
-              className="bg-gray-200/60 hover:bg-gray-300/60 border border-gray-400/40 text-black px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 backdrop-blur-sm hover:scale-105"
+              className="bg-teal-800/60 hover:bg-teal-900/60 border border-gray-400/40 text-white px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 backdrop-blur-sm hover:scale-105"
             >
               {skill}
             </span>
@@ -244,7 +244,7 @@ export default function Experience() {
         <div className="relative w-full max-w-6xl mx-auto">
           {" "}
           {/* Timeline line - hidden on mobile, visible on md+ */}
-          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-black via-gray-400 to-transparent h-full"></div>
+          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-white via-teal-700 to-transparent h-full"></div>
           {/* Mobile timeline line */}
           <div className="md:hidden absolute left-0 w-1 bg-gradient-to-b from-black via-gray-400 to-transparent h-full"></div>{" "}
           {/* Experience cards */}
@@ -261,7 +261,7 @@ export default function Experience() {
 
                   {/* Timeline dot - positioned at the start of the experience card */}
                   <div
-                    className={`absolute w-6 h-6 bg-black rounded-full border-4 border-white shadow-lg z-30
+                    className={`absolute w-6 h-6 bg-white rounded-full border-4 border-black shadow-lg z-30
 										md:left-1/2 md:-translate-x-1/2 md:top-4
 										left-0 -translate-x-1/2 top-5`}
                   />

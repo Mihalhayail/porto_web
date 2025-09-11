@@ -27,7 +27,7 @@ export default function Page() {
     <>
       <main className="overflow-hidden">
         <FixedButton href="/#about">
-          <FontAwesomeIcon icon={faChevronLeft} className="text-black pr-10" />
+          <FontAwesomeIcon icon={faChevronLeft} className="text-white pr-10" />
         </FixedButton>
         <div className="relative h-screen  gap-4 p-10 flex justify-center items-center flex-col mb-10 overflow-hidden">
           {/* hero */}
@@ -48,11 +48,11 @@ export default function Page() {
             </motion.div>
           </div>
           <div className="z-10 w-full absolute md:w-auto md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 pt-4 backdrop-filter backdrop-blur-sm md:backdrop-blur-none bg-gray-100 bg-opacity-50 md:bg-transparent md:pt-0">
-            <h1 className="md:bg-white bg-transparent lg:bg-transparent bg-opacity-50 md:px-0 text-black text-5xl md:text-8xl font-bold">
+            <h1 className="md:bg-zinc-900 bg-transparent lg:bg-transparent bg-opacity-50 md:px-0 text-white text-5xl md:text-8xl font-bold">
               About Me
             </h1>
             <Hr />
-            <p className="title text-xl mt-4 tracking-wider text-gray-900 leading-[1.7rem] mb-5 ">
+            <p className="title text-xl mt-4 tracking-wider text-gray-100 leading-[1.7rem] mb-5 ">
               Pengenalan singkat mengenai{" "}
               <span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
                 {" "}

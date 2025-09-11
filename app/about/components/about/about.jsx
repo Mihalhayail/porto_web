@@ -114,23 +114,23 @@ export default function About() {
           <h2 className="text-2xl font-bold tracking-wider mb-3">
             Mihalhayail bin Muhammad Sayuti
           </h2>
-          <p className="text-gray-600 text-justify title text-lg">
+          <p className="text-gray-300 text-justify title text-lg">
             Hallo Semuanya, Aku Mihalhayail, Seorang
-            <span className="text-black font-medium">
+            <span className="text-white font-medium">
               {" "}
               mahasiswa dengan minat besar pada
             </span>{" "}
             bahasa, filsafat, dan teknologi. Berasal dari Samudera, Aceh Utara,
             Indonesia, Aku sedang menempuh pendidikan sebagai mahasiswa{" "}
-            <span className="text-black font-medium">Sastra Arab</span> di{" "}
-            <span className="text-black font-medium">
+            <span className="text-white font-medium">Sastra Arab</span> di{" "}
+            <span className="text-white font-medium">
               Universitas Al-Azhar, Cairo, Mesir.
             </span>{" "}
             Keseharian aku belajar bahasa dan sastra arab sembari fokus pada
             teknologi web dan kecerdasan buatan. Selain teknologi dan kecerdasan
             buatan, aku juga tertarik dengan filsafat dan beberapa disiplin
             lainnya seperti ekonomi dan keuangan. aku percaya bahwa
-            <span className="text-black font-medium">
+            <span className="text-white font-medium">
               {" "}
               belajar sepanjang hayat
             </span>{" "}
