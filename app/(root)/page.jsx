@@ -266,7 +266,7 @@ const MyPage = () => {
                     }}
                   >
                     Beberapa yang sudah aku lalui{" "}
-                    <span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
+                    <span className="bg-transparent md:bg-zinc-900 bg-opacity-50 xl:bg-transparent">
                       {" "}
                       dan sedang dalam proses.
                     </span>
