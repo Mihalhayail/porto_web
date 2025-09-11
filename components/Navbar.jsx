@@ -201,7 +201,7 @@ const Navbar = () => {
     <>
       <nav
         ref={navRef}
-        className={`navbar bg-[#1a1a1a] px-5 md:px-24 w-screen fixed transition-colors ease duration-500 ${
+        className={`navbar bg-zinc-900 px-5 md:px-24 w-screen fixed transition-colors ease duration-500 ${
           isNavOpen
             ? "backdrop-filter backdrop-blur-md bg-[#1a1a1a] bg-opacity-50"
             : "backdrop-filter backdrop-blur-md"
