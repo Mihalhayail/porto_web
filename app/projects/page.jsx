@@ -54,7 +54,7 @@ export default function Page() {
               />
             </motion.div>
           </div>
-          <div className="z-10 w-full absolute md:w-auto md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 pt-4 backdrop-filter backdrop-blur-sm md:backdrop-blur-none md:backdrop-filter-none bg-gray-100 bg-opacity-50 md:bg-transparent md:pt-0">
+          <div className="z-10 w-full absolute md:w-auto md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 pt-4 backdrop-filter backdrop-blur-sm md:backdrop-blur-none md:backdrop-filter-none bg-[#1e1e1e] bg-opacity-50 md:bg-transparent md:pt-0">
             <h1 className="md:bg-black bg-transparent lg:bg-transparent bg-opacity-50 md-px-0 text-white text-5xl md:text-8xl font-bold">
               My Projects
             </h1>

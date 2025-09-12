@@ -12,7 +12,7 @@ export const metadata = {
   title: "Mihalhayail | Portfolio",
 
   description:
-    "My name is Mihalhayail, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Negeri Malang.",
+    "My name is Mihalhayail, I'm a web developer and I'm passionate about it. I'm currently studying at Al-Azhar University",
 
   author: "Mihalhayail",
   siteUrl: "https://mihalhayail.vercel.app",
